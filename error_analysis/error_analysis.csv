@@ -1,0 +1,1206 @@
+,premise,hypothesis,gold,predict,error
+0,"After an action is performed, things normally remain as they were.. Any time the robot grasps a water pipe, the water pipe will be in the hand.. If a water pipe is in the hand, then, after the robot moves near the plants, water will come out of the pipe.. Initially the water pipe is not in the hand. Initially the robot is not near the plants","After the robot grasps the pipe, waits, then moves near the plants, water will come out of the pipe",1,1,0
+1,"After an action is performed, things normally remain as they were.. Any time the robot grasps a water pipe, the water pipe will be in the hand.. If a water pipe is in the hand, then, after the robot moves near the plants, water will come out of the pipe.. Initially the water pipe is not in the hand. Initially the robot is not near the plants","After the robot grasps the pipe, waits, then does not move near the plants, water will come out of the pipe",0,0,0
+2,"After an action is performed, things normally remain as they were.. Any time pet dogs start barking, they are taken out for a walk.. If a dog is taken out for a walk, then, after the walk is over, the dog will stop barking. Initially the dog is not barking. Initially the dog is not being taken out on a walk","After the dog starts barking, it is taken on walk, and then stops barking at the end of the walk.",1,1,0
+3,"After an action is performed, things normally remain as they were.. Any time pet dogs start barking, they are taken out for a walk.. If a dog is taken out for a walk, then, after the walk is over, the dog will stop barking. Initially the dog is not barking. Initially the dog is not being taken out on a walk","A dog is taken out on walk, and then it starts barking,  and then it stops barking at the end of a walk.",2,2,0
+4,"After an action is performed, things normally remain as they were.. When the robot grasps a water pipe, the water pipe will normally be in the hand.. When the water pipe is in the hand, if the robot moves near the plants, water will normally come out of the pipe.. Initially the water pipe is not in the hand. Initially the robot is not near the plants","After the robot grasps the pipe, waits, then moves near the plants, water will come out of the pipe",1,1,0
+5,"After an action is performed, things normally remain as they were.. When the robot grasps a water pipe, the water pipe will normally be in the hand.. When the water pipe is in the hand, if the robot moves near the plants, water will normally come out of the pipe.. Initially the water pipe is not in the hand. Initially the robot is not near the plants","After the robot grasps the pipe, waits, then does not move near the plants, water will come out of the pipe",0,0,0
+6,"After an action is performed, things normally remain as they were.. When pet dogs start barking, they are taken out for a walk.. When a dog is taken out for a walk, then, after the walk is over, the dog will normally stop barking. Initially the dog is not barking. Initially the dog is not being taken out on a walk","After the dog starts barking, it is taken on walk, and then stops barking at the end of the walk.",1,1,0
+7,"After an action is performed, things normally remain as they were.. When pet dogs start barking, they are taken out for a walk.. When a dog is taken out for a walk, then, after the walk is over, the dog will normally stop barking. Initially the dog is not barking. Initially the dog is not being taken out on a walk","A dog is taken out on walk, and then it starts barking,  and then it stops barking at the end of a walk.",2,2,0
+8,"If I do not wake up, then I cannot go to work.. If I cannot go to work, then I will not get paid.","If I do not wake up, I will not get paid",1,0,1
+9,"If I do not wake up, then I cannot go to work.. If I cannot go to work, then I will not get paid.","If I do not wake up, I will get paid",0,1,1
+10,"If I do not pay taxes, I will be committing a crime.. If I commit a crime, I could go to jail.","If I do not pay taxes, I could go to jail.",1,1,0
+11,"If I do not pay taxes, I will be committing a crime.. If I commit a crime, I could go to jail.","If I pay taxes, I could go to jail.",0,0,0
+12,"If my friend is at home, the he can not look for work. If you do not look for work, then nobody will hire you","If my friend is at home, nobody will hire him.",1,1,0
+13,The cake is either chocolate or vanilla. It is not chocolate,The cake is vanilla,1,1,0
+14,The cake is either chocolate or vanilla.. It is not chocolate.,The cake is not vanilla.,0,0,0
+15,I will either drink milk or I will drink juice. I will not drink juice,I will drink milk.,1,1,0
+16,I will either drink milk or I will drink juice. I will not drink juice,I will not drink milk,0,0,0
+17,The race is either won or lost.. The race is not won.,The race is lost.,1,1,0
+18,All elephants are mammals.. Curtis is an elephant.,Curtis is a mammal,1,1,0
+19,All elephants are mammals.. Curtis is an elephant.,Curtis is not a mammal,0,0,0
+20,All women can give birth.. Lily is a woman.,Lily can give birth,1,1,0
+21,All women can give birth.. Lily is a woman.,Lily can not give birth,0,0,0
+22,All humans are mortal. Men are humans,Men are mortal.,1,1,0
+23,"If it is not raining outside, then the match will go on.. It is not raining outside.",The match will go on.,1,1,0
+24,"If it is not raining outside, then the match will go on.. It is not raining outside.",The match will not go on.,0,1,1
+25,"If I score well in the exam, then I will get pizza.. I scored well in the exam.",I got pizza.,1,1,0
+26,"If I score well in the exam, then I will get pizza.. I scored well in the exam.",I did not get pizza.,0,0,0
+27,"If the speech goes well, he will win the election.. The speech went well.",He won the election.,1,1,0
+28,"After an action is performed, things normally remain as they were.. Any time an order is received, food will be cooked.. If the food is cooked, it will be served.. Initially the order was not received.. Initially food is not served.","After an order has been received, food will be cooked, and then the food will be served.",1,1,0
+29,"After an action is performed, things normally remain as they were.. Any time an item is selected, the item will be added to the cart.. If an item is in the cart, after shopping, the item will be billed.. Initially the item is not in the cart.. Initially the item is not billed.. Initially shopping is not over","After an item is selected, it will be added to the cart and after shopping, the item will not be billed.",0,0,0
+30,"After an action is performed, things normally remain as they were.. Any time an order is received, food will be cooked.. If the food is cooked, it will be served.. Initially the order was not received.. Initially food is not served.","After an order has been received, food will not be cooked and served.",0,0,0
+31,"After an action is performed, things normally remain as they were.. When an item is selected, the item will be normally added to the cart.. When an item is in the cart, after shopping, the item will be billed.. Initially the item is not in the cart.. Initially the item is not billed.. Initially shopping is not over","After cooked food is placed inside micro-oven, the food will be not cooked.",0,0,0
+32,"After an action is performed, things normally remain as they were.. When an order is received, food will be cooked.. When food is cooked, it will be served.. Initially the order was not received.. Initially food is not served.",The food will be cooked without an order.,0,0,0
+33,"After an action is performed, things normally remain as they were.. When food is kept inside micro-oven, the food will be cooked. When a food is not cooked, after cooking, the food will be cooked.. Initially the food is not cooked.. Initially the food is not kept inside micro-oven.","After cooked food is placed inside micro-oven, the food will be cooked.",1,1,0
+34,"After an action is performed, things normally remain as they were.. When an item is selected, the item will be added to the cart.. When an item is in the cart, after shopping, the item will be billed.. Initially the item is not in the cart.. Initially the item is not billed.. Initially shopping is not over","After an item is selected, it will be added to the cart and after shopping, the item will be billed.",1,1,0
+35,"When a plate of food is served on the table, the plate normally stays in the table.. After plate of food A is served on the table, and then plate of food B is served on the table, at most one of the plates A, B was on the table.","After the action is performed, exactly one of plate A, B was on the table.",1,1,0
+36,"When a gymnast takes a pair of weights from the rack, normally the gymnast exercises with it.. After a gymnast takes a pair of weights A from the rack, and then takes a pair of weights B from the rack, the gymnast exercises with at most one of the weights A, B.","After the action is performed, exactly one of the weights A, B is used by the gymnast.",1,1,0
+37,"When a car is parked at a parking spot, the car usually stays on the spot.. After car A is parked at the parking spot, and then car B is parked in the parking spot, at most one of the cars A, B was in the parking lot.","After the action is performed, exactly one of car A, B was in the parking spot.",1,1,0
+38,"When a movie is bought by a theatre, the theatre normally plays the movie.. After movie A is bought by the theatre, and then movie B is bought by the theatre, at most one of the movies A, B will be played.","After the action is performed, exactly one of movies A, B was played.",1,1,0
+39,"After an action is performed, things normally remain as they were.. When a plate of food is served at the table, the plate normally stays in the table.. When a plate of food A is moved to table 1, plate of food B falls down.",Plate of food B would have fallen down if plate of food A is moved to table 2.,1,1,0
+40,"After an action is performed, things normally remain as they were.. When a gymnast takes a pair of weights from the rack, normally the gymnast exercises with it.. When a gymnast does exercise 1 with a pair of weights A, pair of weights B will not be used.",Pair of weights B would not be in use if gymnast does exercise 2 with pair of weights A.,1,2,1
+41,"After an action is performed, things normally remain as they were.. When a car is parked at a parking spot, the car usually stays in the spot.. After car A is parked in parking spot 1, car B will be removed from the parking lot.",Car B would have been removed from the parking lot if car A is parked in parking spot 2.,1,2,1
+42,"After an action is performed, things normally remain as they were.. When a movie is bought by a theatre, the theatre normally plays the movie.. After movie A is played in screen 1, no one watches movie B.",No one would have watched movie B if movie A is played in screen 2.,1,2,1
+43,"If I study, I will get a job.. If I sleep, I will be active.. I will either study or I will not be active.",I will get a job or I will not sleep.,1,1,0
+44,"If I breathe, I will survive. If I work, I will be tired. I will either breathe or I will not be tired",I will survive or I will not work,1,1,0
+45,"If I go out, I will get grocerries.. If I eat, I will be happy.. I will either go out or I will not be happy.",I will get grocerries or I will not eat.,1,1,0
+46,"If I practive, I will dance.. If I work, I will get money.. I will either practice or I will not get money.",I will dance or I will not work.,1,0,1
+47,"If I exercise, I will be healthy.. If I am sad, I will cry.. I will either exercise or I will not cry.",I will be healthy or I will not be sad.,1,0,1
+48,John got good marks in Physics.,"Therefore, someone got good marks in Physics.",1,1,0
+49,Edmund Hillary climbed mount Everest.,"Therefore, someone climbed mount Everest.",1,1,0
+50,Neil Armstrong was the first person to walk on the lunar surface.,"Therefore, someone walked on the lunar surface.",1,1,0
+51,Apples are grown at Washington state in the United States.,"Therefore, somewhere in the United States Apples are grown.",1,2,1
+52,There are rich people in the community.,"Therefore, someone in the community is rich.",1,1,0
+53,"If anyone is sad, they will cry.. John is hungry.",John will cry.,1,2,1
+54,"If John hears telephone ringing, he will answer the telephone.. John hears telephone ringing.",John will answer the telephone.,1,1,0
+55,"If there is smoke in the room, alarm will ring.. There is smoke in the room.",Alarm will ring.,1,1,0
+56,"If temperature is below zero degrees, ice will form.. The temperature is below zero degrees.",Ice will form.,1,1,0
+57,"If Patrick comes on time, he could enter the lecture hall.. Patrick comes on time.",Patrick could enter the lecture hall.,1,1,0
+58,"If the sun shines tomorrow, then we will go to the beach.. If it rains tomorrow, then we will go to the museum.. Either we will not go to the beach or we will not go to the museum.",Therefore either it will not be sunny or it will not be rainy.,1,1,0
+59,"If I have 1 million dollars, I will donate half of it.. If I have 10 million dollars, I will donate 75% of it.. Either I will not donate 500 thousand dollars or 7.5 million dollars.",Therefore I will not have 1 million or 10 million dollars.,1,2,1
+60,"If I am working out, I am happy.. If I am sleeping, I am dreaming.. Either I am not happy or I am not sleeping.",Therefore I am working out or I am sleeping.,0,1,1
+61,"If it rains, roads will be muddy. If it snows, roads will be slippery. Either the roads will not be muddy or the roads will not be slippery.","Therefore, it will be rainy or it will be snowy.",0,1,1
+62,"If you take Logic, you will have to do a lot of homework. If you take Philosophy, you will have to write a lot of papers.. Since you didn't do a lot of homework or you didn't have to write a lot of papers.","Therefore, you didn't take logic and you didn't take Philosophy.",2,2,0
+63,You will get an A if you get above 90 in the AI course.. Marry got 93 in the AI course.,Marry will get an A in the AI course.,1,1,0
+64,A king has a crown on his head.. Jhon has a crown on this head.,Jhon is a king.,1,1,0
+65,A hybrid vehicle is operated by both oil and electricity.. A Tesla is operated by only electricity.,A Tesla is a hybrid vehicle.,0,1,1
+66,It is weird if someone can't talk to women.. Rajesh can't talk to women.,Rajesh is not weird.,0,0,0
+67,Fantasy books are likely to be adopted as movies.. Harry Potter is adopted as a movie.,Harry Potter is a thriller book.,2,2,0
+68,"If the sun shines tomorrow, then we will go to the beach.. If it rains tomorrow, then we will go to the museum.. Tomorrow the sun will shine, or it will rain.",Therefore tomorrow we will go to the museum or to the beach.,1,1,0
+69,"If I have 1 million dollars, I will donate half of it.. If I have 10 million dollars, I will donate 75% of it.. Either I have 1 million dollars or 10 million dollars.",Therefore I will donate 500 thousand dollars or 7.5 million dollars.,1,2,1
+70,"If I am working out, I am happy.. If I am sleeping, I am dreaming.. Either I am working out or sleeping.",Therefore I am not happy or I am not dreaming.,0,1,1
+71,"If it rains, roads will be muddy. If it snows, roads will be slippery. Either it is raining or it is snowy","Therefore, roads are not either muddy, or roads are slippery.",0,0,0
+72,"If you take Logic, you will have to do a lot of homework. If you take Philosophy, you will have to write a lot of papers.. Since you take either Logic or Philosophy.","Therefore, you will have to do a lot of homework and write a lot of papers.",2,2,0
+73,Two racers are aiming for the same track.. Racer A is relatively faster than racer B.. There was no accident reported while the racing event.,Racer A wins the race.,1,1,0
+74,There are three friends dining out.. One of them has only vegetarian dishes.. Other one have only non-vegetarian dishes.. The last friend has both vegetarian and non-vegetarian dishes.,They at least need to order two dishes for sharing meals.,1,2,1
+75,Goldfish commonly kept as a pet in indoor aquariums.. There are few goldfish in an aquarium with no water.. The goldfishes can not survive without water.,The goldfishes are alive in aquariums.,0,2,1
+76,Person A loves playing both soccer and tennis.. He plays soccer on weekends and tennis on weekdays.. Today is the weekend.,Person A will play tennis today.,0,1,1
+77,Passengers are likely to miss their connecting flights if the earlier flight is late.. Passengers needed to wait for a certain amount of time due to these connecting flights.. Sam is flying to New York and he missed the connecting flight in Denver.,Sam will reach Italy late.,2,2,0
+78,"If today is Tuesday, then John will go to work.. Today is Tuesday.",John will go to work today.,1,2,1
+79,The weather will be comfortable in Tempe in October.. Weather is comfortable in Tempe now.,It is October in Tempe.,1,2,1
+80,I will play cricket on weekends if there is no rain.. I played cricket last weekend.,There was rain last weekend.,0,1,1
+81,"If it is fall break, we will go on a trip to Sedona.. It is fall break now.",We are not on a trip to Sedona.,0,0,0
+82,I will go to the library if there is an exam coming up.. I am in the library.,There is new tv series coming up on Netflix.,2,2,0
+83,Healthy people are normally happy.. At least one healthy people are not happy.,Exactly one healthy people are not happy.,1,1,0
+84,First three finishers will get prizes for completing a race.. At least one or more racers will not get the prize.,Exactly one or more racers will not finish in the first three places.,1,2,1
+85,Most of the road accidents that occurred in last week are reported to the police.. At least one accident was not reported to the police in last week.,Exactly one accident was reported to the police last week.,0,0,0
+86,Students who submitted assignments before due are likely to get good grades.. At least one or more students will submit the assignment after the due date.,Most of the students will not get good grades.,0,0,0
+87,People go to sea beach in summer vacation.. At least one person did not go to the beach in summer vacation.,Many people did go hiking in summer vacation.,2,2,0
+88,"A, B, C are three high-priority packages.. High-priority packages usually reached the delivery destination within 24 hours.. At least one of packages A or B did not reach the destination within 24 hours.",Package C will be delivered to the destination within 24 hours.,1,1,0
+89,"A, B, C are three high-priority packages.. High-priority packages usually reached to the delivery destination within 24 hours.. At least one of the packages A or B did not reach the destination within 24 hours.",Exactly one of the packages A or B did not reach to the destination within 24 hours.,1,1,0
+90,"Classical guitar strings are made of materials such as nylon, fluorocarbon, and other synthetics.. Guitar X or Guitar Y’s strings are made of different materials except these.","Exactly one of X or Y’s strings are not made of nylon, fluorocarbon, and other synthetic.",1,0,1
+91,"Students A, B, C received good grades.. To receive good grades normally students are required to score above 90% in midterm exam.. At least one of the A, B did not score above 90% in mid-term.",C did not score more than 90% in mid-term.,0,1,1
+92,"Person A put a laptop, an ipad in his bag while going out.. Today he forget to put either the laptop or the ipad in the bag.",Both the laptop and the ipad is missing in the bag today.,0,1,1
+93,"Blocks A, B, and C are heavy.. Heavy blocks are normally on the table.. At least one of A, B is not on the table.",Both B and C are on the table.,2,1,1
+94,"If the sky is cloudy, it will rain.. If it snows today, then the schools declare a holiday.. The sky is either cloudy or it snows today.",It will rain or the schools declare a holiday.,1,1,0
+95,"If we reach the museum on time, we can see all the artworks displayed.. If we go to the museum on a Sunday, then the museum will be closed.. We reach the museum on time or we go to the museum on a Sunday.",We can see all the artworks displayed or the museum will be closed.,1,1,0
+96,"If the episode of the show releases today, then he will watch the episode.. If it does not rain today, then he will play cricket with his friends.. The episode of the show releases today or it does not rain today.",He will watch the episode or he will play cricket with his friends.,1,1,0
+97,"If I win a million dollars, I will donate it to an orphanage.. If my friend wins a million dollars, he will donate it to a wildlife fund.. Either I win a million dollars or my friend wins a million dollars.","Therefore, either an orphanage will get a million dollars, or a wildlife fund will get a million dollars.",1,1,0
+98,"If I come first in the race, I get a bicycle as a prize.. If my friend gets a promotion, then he will celebrate it with a party.. Either I come first in the race or my friend gets a promotion.","Therefore, either I get a bicycle as a prize or my friend will celebrate his promotion with a party.",1,1,0
+99,"After an action is performed, things normally remain as they were.. When a person is offered admission to a university, then the person can accept or decline the admission.. If a person decides to accept the admission, then they become a student.. Joshua has received admission to Stanford and Berkeley.. Joshua is now working at Google.","Either before or after being admitted, Joshua decided to switch to employment at Google.",2,1,1
+100,"After an action is performed, things normally remain as they were.. When the robot moves the block to another location, the block will normally be at that location.. After the robot moved the block to location A and then to location B, the block changed its shape.",The block must have changed its shape either after the first move or the second.,1,1,0
+101,"After an action is performed, things normally remain as they were.. Anytime the robot grasps a block, the block will be in its hand.. The robot is battery-powered.. When the robot moves a block to another location, the block will normally be at that location.. The robot grasped a block and stopped before reaching the destination.",The robot must have powered down while trying to reach the destination.,2,1,1
+102,"After an action is performed, things normally remain as they were.. Andrew likes both chocolate and strawberry-flavored cakes.. For his birthday, however, he decided to try out honey-flavored cake.","Sometime before his birthday, Andrew decided to try out honey-flavored cake instead.",1,1,0
+103,Some pets are dogs.. Jimmy is a dog.. Jimmy does not bite people.,Jimmy is a pet.,1,0,1
+104,"Some vegetables can be eaten raw.. Beetroot is a vegetable.. If beetroot is eaten raw, it has positive effects on the human body.",Beetroot can be eaten raw.,1,1,0
+105,Some electronic devices are portable.. A device is called portable if it can be carried from one place to another by hand.. A laptop is an electronic device that can be carried by hand.,A laptop is a portable electronic device.,1,1,0
+106,Some food items are completely vegan.,No conclusion can be drawn from the given information.,2,0,1
+107,Some electronic devices are portable.. A device is called portable if it can be carried from one place to another by hand.. A laptop is an electronic device that can be carried by hand.,A laptop is not a portable electronic device.,0,0,0
+108,"After an action is performed, things normally remain as they were.. Any time the item is in the robot's hand, it travels to the truck.. Any time the robot picks up an item, it will be in the robot's hand.. If an item is on the ground and its hand is empty, the robot will pick the item up.. After reaching the location of the truck, the robot places the item inside the truck.. Initially, the robot's hand is empty.. Initially, the item is on the ground.","After the robot picks up the item, travels to the truck and places the item inside the truck.",1,1,0
+109,"After an action is performed, things normally remain as they were.. Any time an item is not present in the house, robot adds the item to the shopping list.. If an item is already in the shopping list, the robot will not add the item to the shopping list.. Sugar is an item.. Initially, sugar is not present in the house.. Initially, sugar is not present in the shopping list.","After identifying that sugar is not present in the house, robot will add it to the shopping list.",1,1,0
+110,"After an action is performed, things normally remain as they were.. Any time the sun sets, a sensor turns on in the robot.. If the sensor is on, the robot goes near the light switch.. If the light switch is off, the robot will turn it on.. Initially, the light switch is off.. Initially, the sun has not set.","After the sun sets, the robot will go near the light switch, and turn it on.",1,1,0
+111,"After an action is performed, things normally remain as they were.. Any time the sun sets, a sensor turns on in the robot.. If the sensor is on, the robot goes near the light switch.. If the light switch is off, the robot will turn it on.. Initially, the light switch is off.. Initially, the sun has not set.","After the sun sets, the robot will go near the light switch, and not turn it on.",0,0,0
+112,"After an action is performed, things normally remain as they were.. When the seats open for a course, a student will take up the course.. If John sees open seats for AI or NLP when he is looking for a course, he will take up the course.. John is currently looking for a course.","After John sees that seats are available for both AI and NLP, he would have taken up one of the courses.",1,1,0
+113,"After an action is performed, things normally remain as they were.. When a person is offered admission to a university, then the person can accept or decline the admission.. If a person decides to accept the admission, then they become a student.. James has received admission to Stanford and Berkeley.. James is willing to accept the admission.","After James is offered admission at Stanford and Berkeley, he is now a student either at Stanford or Berkeley.",1,1,0
+114,"If anyone is hungry, they will eat food.. Susan is hungry.",Susan will eat food.,1,1,0
+115,"If the alarm rings in the morning, he will wake up.. The alarm rings in the morning.",He will wake up.,1,1,0
+116,"If the temperature is not hot, then David will go for a ride on his bicycle.. The temperature is not hot.",David will go for a ride on his bicycle.,1,1,0
+117,"If the movie releases in her city, Lisa will watch the movie.. The movie was released in her city.",She will watch the movie.,1,1,0
+118,"If Donna does not score an F, her result would be indicated as a pass.. Donna does not score an F.",Donna's result would be indicated as a pass.,1,1,0
+119,"After an action is performed, things normally remain as they were.. When the robot picks up a block, the block will be in its hand.. When the robot's hand is empty, it will pick up the block if the storage space of the robot is also empty.. After the block is in the robot's hand, it will place the block in its storage space.. Initially, the block is on the floor.. Initially, the robot's hand is empty.",The robot picked up the block and placed it in the storage space.,2,0,1
+120,"After an action is performed, things normally remain as they were.. When the robot picks up a block, the block will be in its hand.. If the storage space is empty, the robot will then pick up the block.. When the block is in the robot's hand, it will place the block in its storage space.. When the block is placed in the storage space, the robot will move toward the table.. Initially, the robot is on the floor.. Initially, the storage space of the robot is empty.",The robot picked up the block and placed it on the table.,1,0,1
+121,"After an action is performed, things normally remain as they were.. When George starts his journey to his office, he has to use his personal vehicle to reach the bus stop from his house.. When George reaches the bus stop, he will board the bus which goes to his office.. Initially, George is in his house.",George uses his personal vehicle to go to the bus stop and uses the bus to reach his office.,1,1,0
+122,"After an action is performed, things normally remain as they were.. When the sun sets, a sensor turns on in the robot.. When the sensor is on, the robot goes near the light switch.. If the light switch is off, the robot will turn it on.. Initially, the light switch is off.. Initially, the sun has not set.","After the sun sets, the robot will go near the light switch, and turn it on.",1,1,0
+123,"If the sky is clear, it will not rain.. If Peter has some free time, then he will play golf.. It will not rain or Peter will not play golf.",The sky is not clear or Peter has no free time.,1,0,1
+124,"If there is a train to Phoenix, then we will go to Phoenix by train.. If the restaurant is open, then we will eat in the restaurant.. We did not come to Phoenix by train or we did not eat in the restaurant.",There was no train to Phoenix or the restaurant was not open.,1,1,0
+125,"If the movie releases today, then he will watch it during the weekend.. If it does not rain today, then he will play cricket with his friends.. He will not watch the movie during the weekend or he will not play cricket with his friends.",The movie will not be released today or it will rain today.,1,1,0
+126,"If I win the lottery, I will go on a world tour.. If my friend wins the lottery, he will build a place of worship with it.. Either I will not go on a world tour or my friend will not build a place of worship.","Therefore, I did not win the lottery or my friend did not win the lottery.",1,1,0
+127,"If I come first in the race, I get a bicycle as a prize.. If my friend gets a promotion, then he will celebrate it with a party.. Either I do not get the bicycle as a prize or my friend does not celebrate his promotion with a party.","Therefore, either I do not come first in the race or my friend does not get the promotion.",1,1,0
+128,"If I graduate from college, I will get a job.. If I fail a class, I have to retake it.. Either I will not get a job or I will not have to retake a class.","Therefore, I will not graduate from college or I will not fail a class.",1,1,0
+129,"If I put my pencil on the inclined plane, then it will roll off.. If I put my plate on the table, then dinner will be served.. Either the pencil will not roll off or the dinner will not be served.",Either I do not put my pencil on the inclined plane or I put my plate on the table.,0,1,1
+130,"If I put the blanket on the couch, then the cat will sleep there.. If I put the remote on the couch, then I will watch TV.. Either the cat will not sleep on the couch or I will not watch TV.",Either I do not put the blanket on the couch or I do not put the remote on the couch.,1,0,1
+131,"If I wear my scarf around the neck, I will look stylish.. If I cover myself with the blanket, then I will sleep warm.. Either I will not look stylish or I will not sleep warm.",I don't go to the school tomorrow.,2,0,1
+132,"If I set the thermostat to 68 degrees, then the house will be comfortable.. If I eat a banana, then I will get energy.. Either the house will not be comfortable or I will not get energy.",Either I do not set the thermostat to 68 degrees or I do not eat a banana.,1,1,0
+133,"If I put my shoes on, then I will go outside.. If I eat an apple, then I will get the nutrition.. Either I will not go outside or I will not get nutrition.",Either I do not put my shoes on or I make apple juice.,0,2,1
+134,"If I put my candy wrapper on the desk, then the teacher will see it.. If I do my homework, then I will get a good grade.. Either the teacher will not see it or I will not get a good grade.",Either I do not put my candy wrapper on the desk or I do not do my homework.,1,1,0
+135,"If I eat chocolate, then I will get energy.. If I have money, then I can buy a house.. Either I will not get energy or I will not buy a house.",I do not eat chocolate.,0,0,0
+136,"If I stop at the red light, then I will not get a ticket.. If I swim in the pool, then I will get wet.. Either I will not get a ticket or I will not get wet.",Either I do not stop at the red light or I do not swim in the pool.,1,1,0
+137,"If I watch cricket, then I will be bored.. If I watch baseball, then I will be entertained.. Either I will not be bored or I will not be entertained.",Either I do not watch cricket or I do not play baseball.,0,0,0
+138,"If I use my charger, then my phone will have power.. If I eat food, then I will be nourished.. Either my phone will not have power or I will not be nourished.",Either I do not use my charger or I do not eat food.,1,1,0
+139,"If there are street lights, then it is nighttime.. If it is nighttime, then I should not use my laptop.. Either it is not nighttime or I should not use my laptop.",Either there are no street lights or I should not use my laptop.,1,0,1
+140,"If I use a hair brush, then my hair will be smooth.. If I use scotch tape, then my paper will be stuck together.. Either my hair will not be smooth or my paper will not be stuck together.",Either I do not use a hair brush or the paper will be stuck together.,0,0,0
+141,"If I light a candle, then I will be able to see.. If I use a bookmark, then I will be able to find my place.. Either I will not be able to see or I will not be able to find my place.",I buy some bookmarks from the store.,2,0,1
+142,"If I use nail clippers, then my nails will be short.. If I drink milk, then I will be healthy.. Either my nails will not be short or I will not be healthy.",Either I do not use nail clippers or I do not drink milk.,1,1,0
+143,"If I put my desk in the living room, then my parents will see it.. If I use scotch tape, then my paper will be stuck together.. Either my parents will not see the table or my paper will not be stuck together.",Either I do not put my desk in the living room or I do not use scotch tape.,1,1,0
+144,"If there is a puddle, then I will avoid it.. If I use packing peanuts, then my box will be filled.. Either I will not avoid the puddle or my box will not be filled.",The puddle is half-full with water.,2,2,0
+145,"If I wear glasses, then I will be able to see.. If I wear eyeliner, then I will look pretty.. Either I will not be able to see or I will not look pretty.",Either I do not wear glasses or I wear eyeliner.,0,0,0
+146,"If I use shampoo, then my hair will be clean.. If I use conditioner, then my hair will be soft.. Either my hair will not be clean or my hair will not be soft.",Either I do not use shampoo or I do not use conditioner.,1,1,0
+147,"If I use tweezers, then I will be able to pluck my eyebrows.. If I use a cinder block, then I will be able to build a wall.. Either I will not be able to pluck my eyebrows or I will not be able to build a wall.",Either I use tweezers or I do not use a cinder block.,0,0,0
+148,"If I use a cork, then I will be able to stop the wine from spilling.. If I use a bookmark, then I will not have to remember the page number.. Either the wine will not spill or I will have to remember the page.",Either I do not use a cork or I do not use a bookmark.,1,1,0
+149,"If I use a spoon, then I can eat soup.. If I use olive oil, then I can cook pasta.. Either I cannot eat soup or I cannot cook pasta.",I did not like the pasta I made.,2,0,1
+150,"If I use a glow stick, then I will be able to see in the dark.. If I use a cookie jar, then I will be able to store cookies.. Either I will not be able to see in the dark or I will not be able to store cookies.",Either I do not use a glow stick or I do not use a cookie jar.,1,1,0
+151,"If I use a zipper, then I can close my jacket.. If I use a sponge, then I can clean the kitchen counter.. Either my jacket will not be closed or the kitchen counter will not be clean.",Either I use a laptop or I do not use a sponge.,0,0,0
+152,"If I use a buckle, then I can close my belt.. If I use paper, then I can write a letter.. Either my belt will not be closed or I will not be able to write a letter.",The belt did not have a buckle of my liking.,2,0,1
+153,"If I use a fork, then I can eat my food.. If I use a toothpick, then I can pick my teeth.. Either I will not be able to eat my food or I will not be able to pick my teeth.",I did not like the food at the restaurant.,2,0,1
+154,"If I use a plate, then I can eat my food.. If I use a balloon, then I can decorate the room.. Either I will not be able to eat my food or the room will not be decorated.",Either I do not use a plate or I do not use a balloon.,1,0,1
+155,"If I use bread, then I can make a sandwich.. If I use a photo album, then I can store my pictures.. Either I will not be able to make a sandwich or I will not be able to store my pictures.",I played jetpack joyride on my mobile phone.,2,0,1
+156,"If I use a pencil, then I can write.. If I use a notebook, then I can take notes.. Either I will not be able to write or I will not be able to take notes.",Either I do not use a pencil or I do not use a notebook.,1,0,1
+157,"If I use a button, then I can close my shirt.. If I use a screw, then I can hold my furniture together.. Either my shirt will not be closed or my furniture will not be held together.",Either I use a button or I use a screw.,0,1,1
+158,"If I use face wash, then I can clean my face.. If I use a sandal, then I can wear it on my feet.. Either my face will not be clean or I will not be able to wear sandals on my feet.",Either I do not use face wash or I do not use a sandal.,1,0,1
+159,"If I use a computer, then I can type.. If I use a needle, then I can sew.. Either I will not be able to type or I will not be able to sew.",I do not use a needle.,2,0,1
+160,"If I use clothes, then I can wear them.. If I buy a cat, then I can pet it.. Either I will not be able to wear clothes or I will not be able to pet a cat.",Either I do not use clothes or I do not buy a cat.,1,0,1
+161,"If I use a towel, then I can dry myself off.. If I use speakers, then I can listen to music.. Either I will not be able to dry myself off or I will not be able to listen to music.",Either I do not use a towel or I use the speakers.,0,1,1
+162,"If I use a glass, then I can drink from it.. If I use a pitcher, then I can pour from it.. Either I will not be able to drink from the glass or I will not be able to pour from the pitcher.",Either I do not use a glass or I do not use a pitcher.,1,0,1
+163,"If I use an eraser, then I can erase something.. If I use a mop, then I can clean the floor.. Either I will not be able to erase something or I will not be able to clean the floor.",Either I do not use an eraser or I do not use a mop.,1,1,0
+164,"If I use a lamp, then I can see in the dark.. If I use a book, then I can read it.. Either I will not be able to see in the dark or I will not be able to read the book.",The lamp had yellow lighting for easy reading.,2,0,1
+165,"If I use a wishbone, then I can make a wish.. If I use markers, then I can color.. Either my wish will not come true or I will not be able to color.",Either I do not use a wishbone or I do not use markers.,1,0,1
+166,"If I use a remote, then I can change the channel.. If I use batteries, then I can power the remote.. Either I will not be able to change the channel or I will not be able to power the remote.",Either I do not use a remote or I do not use batteries.,1,0,1
+167,"If I use a knife, then I can cut something.. If I climb a plane, then I can fly.. Either I will not be able to cut something or I will not be able to fly.",I use a knife.,0,0,0
+168,"If I use playing cards, then I can gamble.. If I use a pair of handcuffs, then I can arrest someone.. Either I will not be able to gamble or I will not be able to arrest someone.",Either I do not use playing cards or I do not use a pair of handcuffs.,1,0,1
+169,"If I use a bow, then I can shoot an arrow.. If I use sand paper, then I can smooth something.. Either I will not be able to shoot an arrow or I will not be able to smooth something.",I use a bow and sand paper.,0,2,1
+170,"If I use a pencil, then I can write.. If I use a drum, then I can compose songs.. Either I will not be able to write or I will not be able to compose songs.",Either I do not use a pencil or I do not use a drum.,1,0,1
+171,"If I use a locker, then I can store my things.. If I have carrots, then I can eat them.. Either I will not be able to store my things or I will not be able to eat carrots.",Either I do not use a locker or I have carrots.,0,1,1
+172,"If I use cheese, then I can eat it.. If I use an almirah, then I can store my things.. Either I will not be able to eat cheese or I will not be able to store my things.",Either I do not use cheese or I do not use an almirah.,1,1,0
+173,"If I have oranges, then I can eat them.. If I have popcorn, then I can sell it.. Either I will not be able to eat oranges or I will not be able to sell popcorn.",I finished eating all the apples.,2,0,1
+174,"If I have a soccer ball, then I can play soccer.. If I have a teddy bear, then I can sleep with it.. Either I will not be able to play soccer or I will not be able to sleep with the teddy bear.",Either I do not have a soccer ball or I do not have a teddy bear.,1,0,1
+175,"If I have ice cream, then I can eat it.. If I have a calculator, then I can do math.. Either I will not be able to eat ice cream or I will not be able to do math.",I have ice cream and a calculator.,0,2,1
+176,"If I use hula hoops, then I can exercise.. If I use water cans, then I can water the plants.. Either I will not be able to exercise or I will not be able to water the plants.",Either I do not use hula hoops or I do not use water cans.,1,1,0
+177,"If I have a tower near my house, then I will get good reception.. If I recycle waste, then I can help the environment.. Either I will not get good reception or I will not be able to help the environment.",Either I do not have a tower near my house or I recycle waste.,0,1,1
+178,"After an action is performed, things normally remain as they were.. Any time the robot sees a coffee pot, it will start making coffee.. If the robot starts making coffee, it will first collect coffee powder.. Any time the robot collects coffee powder, it will mix milk and sugar to prepare coffee.. Initially, the robot does not see a coffee pot.","After the robot sees a coffee pot, it will start making coffee by mixing coffee powder with milk only.",0,0,0
+179,Some animals which live in the water bodies have gills to breathe.. Fish is an animal.. Fish have gills to breathe.,Fish don't need food to survive.,0,0,0
+180,Some animals are dangerous.. Penguins are not dangerous.. Penguins are animals.,No conclusion can be drawn from the given information.,2,0,1
+181,"Some pens write in blue color.. If a pen writes in blue color, school children can use it.. This pen writes in blue color.",This pen can be used by the school children.,1,1,0
+182,Some bridges are made of concrete.. The Golden Gate Bridge is a bridge.. The Golden Gate Bridge is made of concrete.,The Golden Gate Bridge is a concrete bridge.,1,1,0
+183,Some water bottles are made of plastic.. The water bottle I'm drinking from is made of plastic.,The water bottle I'm drinking from is a water bottle.,1,1,0
+184,A picture is worth a thousand words.. This is a picture of my family.,This is a picture of my family worth a thousand words.,1,1,0
+185,A vehicle has wheels.. Car is a form of a vehicle.,A car has wheels.,1,1,0
+186,A computer has a monitor.. A laptop is a form of a computer.,A laptop has a monitor.,1,1,0
+187,A wall is a structure that usually divides two areas.. A wall is often made of concrete.. This wall is made of concrete.. This structure divides two areas.,This is a wall.,1,1,0
+188,Einstein's theory of relativity is a scientific theory.. A scientific theory is a logical explanation of observations.. Einstein's theory of relativity is a logical explanation of observations.,Einstein's theory of relativity is a scientific theory.,1,1,0
+189,A corporation is a legal entity created by a group of individuals.. A corporation is owned by its shareholders.. This company is a corporation.,This company is owned by its shareholders.,1,1,0
+190,Some food items are cooked in a microwave.. A microwave is a device that uses electromagnetic radiation to heat food.. This food item was not cooked in a microwave.,This food item was heated by a device that uses electromagnetic radiation.,0,1,1
+191,Some paintings are made with oil paint.. Oil paint is a type of paint that consists of pigments suspended in a drying oil.. This painting was not made with oil paint.,This painting was made with a type of paint that consists of pigments suspended in a drying oil.,0,1,1
+192,Julius Caesar was assassinated by Marcus Brutus.. Marcus Brutus was a Roman politician.,Julius Caesar was not assassinated by a Roman politician.,0,0,0
+193,Some machine learning algorithms are designed for image classification.. Image classification is a process of assigning a label to an image.. This machine learning algorithm was not designed for image classification.,This machine learning algorithm was designed for the process of assigning a label to an image.,0,0,0
+194,Some countries are located on the African continent.. The African continent is located on the planet Earth.. This country is not located on the African continent.,This country is located on the planet Earth.,1,0,1
+195,Ed Sheeran is a person.. Singers are people who sing.,Ed Sheeran is a singer.,2,1,1
+196,Eminem is a person.. Rappers are people who rap.. Eminem can rap.,Eminem is a rapper.,1,1,0
+197,A table is a piece of furniture.. A piece of furniture is an object that is used for a particular purpose.. This table was not made for a particular purpose.,This table was not made to be used as a piece of furniture.,1,0,1
+198,"If all is well, then everything is fine.. Everything is not fine.",All is not well.,1,1,0
+199,An umbrella is a device that is used to protect against rain.. This device was not used to protect against the rain.,This is not an umbrella.,1,1,0
+200,Some foods are considered healthy.. Healthy foods are foods that are low in calories.. This food is not considered healthy.,This food is high in calories.,1,0,1
+201,A potato is a type of vegetable.. Vegetables are healthy for you.,Potatoes are not healthy for you.,1,0,1
+202,Headphones are a type of audio device.. This device was not designed to produce sound.,This device was not designed to be used as headphones.,2,0,1
+203,Some electronic devices need an adapter to work in foreign countries.. My laptop is an electronic device.. Japan is a foreign country.,My laptop is a device that needs an adapter to work in Japan.,1,1,0
+204,"Some integers are whole numbers.. If an integer is not negative, then the number is a whole number.. This integer is not negative.",This integer is a whole number.,1,1,0
+205,"Some integers are whole numbers.. If an integer is not negative, then the number is a whole number.. This integer is negative.",This integer is not a whole number.,0,0,0
+206,"Some politicians are liars.. If a person is a liar, then that person is not to be trusted.. This politician is a liar.",This politician is not to be trusted.,1,1,0
+207,"Some people need to sleep in order to function properly.. If a person has slept, they will function properly.. This person has slept.",This person will not function properly.,0,0,0
+208,Some electronic devices need a fan to cool them down.. An electronic device needs a fan to cool down if they get heated.. This electronic device gets heated.,This electronic device needs a fan to cool down.,1,1,0
+209,Some food items are wrapped in wrappers.. Candy is a type of food.,Candy wrappers can be used to wrap food.,0,1,1
+210,Milk is a type of liquid.. Some liquids are drinkable.,Milk is a drinkable liquid.,1,1,0
+211,Paper is a type of material.. Some materials are flammable.,Paper is a flammable material.,1,1,0
+212,Slippers are a type of footwear.. Some footwear is meant to be worn indoors.,Slipper are footwear that are meant to be worn indoors.,1,1,0
+213,Scotch tape is a type of adhesive.. Some adhesives are used to attach two pieces of paper together.,Scotch tape can be used to attach two pieces of paper together.,1,1,0
+214,Radios are a type of electronic device.. Some electronic devices use batteries.,Radios are electronic devices that use batteries.,1,1,0
+215,Apples are a type of fruit.. Some fruits are red.,Apples are red fruits.,1,1,0
+216,Broccoli is a type of vegetable.. Some vegetables can be eaten raw.,Broccoli is a vegetable that can be eaten raw.,1,1,0
+217,Pillows are a type of bedding.. Some bedding is made of feathers.,Pillows are bedding that is made of feathers.,1,1,0
+218,Coasters are a type of drinkware.. Some drinkware is used to protect surfaces from condensation.,Coasters are drinkware that is used to protect surfaces from condensation.,1,1,0
+219,Mirrors are a type of reflective surface.. Some reflective surfaces are used to see oneself.,Mirrors are not reflective surfaces that are used to see oneself.,0,0,0
+220,Rubber bands are a type of elastic.. Some elastics are used to hold things together.,Rubber bands are a non-elastic material.,0,0,0
+221,Lip gloss is a type of cosmetic.. Some cosmetics are used to add color to the lips.,Lip gloss can be purchased in the store next to the medical shop.,2,2,0
+222,Bookmarks are a type of reading accessory.. Some reading accessories are used to mark one's place in a book.,Bookmarks are made using cardboard material.,2,2,0
+223,Glass is a type of material.. Some materials are transparent.,Glass is an opaque material.,0,1,1
+224,"If John is taller than Karen, then he is taller than Lisa.. John is taller than Karen.",John is shorter than Lisa.,0,0,0
+225,"If the light is green, then the car can move.. The light is green.",The car cannot move.,0,0,0
+226,"If it is raining, the ground will be wet.. It is raining.",The ground will be dry.,0,1,1
+227,"If the cat is sleeping, it will not be playing.. The cat is sleeping.",The cat will be dreaming.,2,2,0
+228,"If she is not working on the weekends, she will spend time with her family.. She is not working on the weekends.",She will take a solo trip to the mountains.,0,2,1
+229,"If the cat is sleeping, it will not be playing.. The cat is sleeping.",The cat will not be playing.,1,1,0
+230,"If he has not finished his work, he will not leave the office.. He has not finished his work.",He will not leave the office.,1,1,0
+231,"If she knows the answer, she will raise her hand.. She knows the answer.",She will not raise her hand.,0,0,0
+232,"If the ball is not red, then it is not a tennis ball.. The ball is not red.",The ball is a tennis ball.,0,1,1
+233,"If the wind is blowing, the flags will be waving.. The wind is blowing.",The flags will be waving.,1,1,0
+234,"If the cake is chocolate, Eve will eat it.. The cake is chocolate.",Eve does not like the cake.,2,0,1
+235,"If he has time, he will study for the test.. He has time.",He will browse Instagram while studying.,2,2,0
+236,"If the sun is out, the sky is blue.. The sun is out.",The sky is yellow.,0,0,0
+237,"If she is not happy, she will not smile.. She is not happy.",She will frown.,2,2,0
+238,"If he runs every day, he will be in shape.. He runs every day.",He will be in shape.,1,1,0
+239,"If it is cold outside, the snow will fall.. It is cold outside.",The temperature is below 20 degrees.,2,2,0
+240,"If she is tired, she will sleep.. She is tired.",She will stay awake.,0,0,0
+241,"If he works hard, he will get promoted.. He works hard.",He will not get promoted.,0,0,0
+242,"If she is sad, she will cry.. She is sad.",She goes to the doctor for therapy.,2,2,0
+243,"If he wants to pass the class, he will have to study.. He wants to pass the class.",He will have to study.,1,1,0
+244,"If the light is red, the car must stop.. The light is red.",The car will not stop.,0,0,0
+245,"If the dog is barking, there is someone at the door.. The dog is barking.",The dog suspects the presence of a spiritual entity.,2,2,0
+246,"If there is a fire, the alarm will sound.. There is a fire.",The alarm light will be on.,2,1,1
+247,"If the phone rings, someone is calling.. The phone is ringing.",I will not pick up the call.,2,0,1
+248,"If the TV is on, someone is watching it.. The TV is on.",No one is watching it.,0,0,0
+249,"If the sun is out, it is daytime.. The sun is out.",It is daytime.,1,1,0
+250,"If it is nighttime, the sun is not out.. It is nighttime.",The sun is out.,0,0,0
+251,"If the moon is out, it is nighttime.. The moon is out.",It is nighttime.,1,1,0
+252,"If it is daytime, the moon is not out.. It is daytime.",The moon is not out.,1,1,0
+253,"If there are clouds in the sky, it might rain.. There are clouds in the sky.",It might rain.,1,1,0
+254,"If there are stars in the sky, it is nighttime.. There are stars in the sky.",It is nighttime.,1,1,0
+255,"If Venus is visible, it is daytime.. Venus is visible.",It is daytime.,1,1,0
+256,"If it is nighttime, Venus is not visible.. It is nighttime.",Venus is not visible.,1,1,0
+257,"If there is a thunderstorm, it is raining.. There is a thunderstorm.",It is raining.,1,1,0
+258,"If there is a rainbow, it is raining.. There is a rainbow.",It is raining.,1,1,0
+259,"If the temperature is below freezing, the water is frozen.. The temperature is below freezing.",The water is not frozen.,0,0,0
+260,"If the patient has a fever, the patient has the flu.. The patient has a fever.",The patient has a broken bone.,2,2,0
+261,"If the patient has lice, the patient needs to wear hair clips.. The patient has lice.",The patient need not to wear hair clips.,0,0,0
+262,"If the document is a .doc file, it was created in Microsoft Word.. The document is a .doc file.",The document was created in Microsoft Word.,1,1,0
+263,"If the animal is a dog, the animal is a mammal.. The animal is a dog.",The animal is a mammal.,1,1,0
+264,"If it is November, the leaves are falling.. It is November.",The leaves are yellow in colour.,2,1,1
+265,"If it is Spring, the flowers are blooming.. It is Spring.",The flowers are blooming.,1,1,0
+266,"If the place has an ocean, the place is a beach.. The place has an ocean.",The place is a beach.,1,1,0
+267,"If the activity is enjoyable, the person will do it again.. The activity is enjoyable.",The person will do it again.,1,1,0
+268,"If the person does not enjoy the activity, the person will not do it again.. The person does not enjoy the activity.",The person will not do it again.,1,1,0
+269,"If the pendulum has moved 60 times, then a minute has passed.. The pendulum moved for 60 times.",A minute has passed.,1,1,0
+270,"If the object is too small to see with the naked eye, it can be seen with a microscope.. The object is too small to see with the naked eye.",The object can be seen with a microscope.,1,1,0
+271,"If the person has a facebook account, the person is active on social media.. The person has a facebook account.",The person is active on social media.,1,1,0
+272,"If the water has a filter, the water is clean.. The water has a filter.",The water is clean.,1,1,0
+273,"If the person uses toothpaste, the person is brushing their teeth.. The person uses toothpaste.",The person is brushing their teeth.,1,1,0
+274,"If I buy a new car, I will sell my old one.. If I don't sell my old car, I will give it to my brother.. Either I buy a new car or I don't sell my old car.","Therefore, either I sell my old car or I give it to my brother.",1,1,0
+275,"If I take the bus, then I will be late for my appointment.. If I have breakfast, then I will skip lunch.. Either I take the bus or I have breakfast.","Therefore, either I will be early for my appointment or I will not skip lunch.",0,0,0
+276,"If the meeting is cancelled, then I will go home early.. If I work longer today, I will have dinner in the office.. Either the meeting is cancelled or I work longer today.","Therefore, either I will go home early or I will have dinner in the office.",1,1,0
+277,"If I jump the fence, I will be trespassing.. If I go through the gate, I will have to pay a fee.. Either I jump the fence or I go through the gate.","Therefore, either I will not be trespassing or I will have to pay a fee.",0,0,0
+278,"If I drink all the water in the bottle, then I will be thirsty.. If I don't drink any water, then I will be dehydrated.. Either I drink all the water in the bottle or I don't drink any water.","Therefore, either I will be thirsty or I will be dehydrated.",1,1,0
+279,"If I use headphones, then I can't hear anything else.. If I don't use headphones, then I can hear everything else.. Either I use headphones or I don't use headphones.",I will buy a new pair of headphones.,2,0,1
+280,"If I talk, then I will make noise.. If I run, then I will be tired.. Either I talk or I run.",I will not make noise and I will not be tired.,0,2,1
+281,"If I take the bus, then I will get there faster.. If I walk, then I will get there slower.. Either I take the bus or I walk.","Therefore, either I will get there faster or I will get there slower.",1,1,0
+282,"If I do an experiment, then I will get results.. If I understand the theory, then I can teach it to others.. Either I do an experiment or I understand the theory.",I gave the students an assignment to read the paper by tomorrow.,2,0,1
+283,"If I look through the telescope, then I will see the stars.. If I look at the sky, then I will see the clouds.. Either I look through the telescope or I look at the sky.","Therefore, either I will not see the stars or I will see the clouds.",0,0,0
+284,"If I study the past, then I can learn from it.. If I don't study the past, then I will repeat its mistakes.. Either I study the past or I don't study the past.","Therefore, either I can learn from the past or I will repeat its mistakes.",1,1,0
+285,"If I study the map, then I will know where I am going.. If I don't study the map, then I will get lost.. Either I study the map or I don't study the map.",I will get lost.,0,0,0
+286,"If I mix the two fundamental elements, then I will create a new substance.. If I add this element to water, then I won't create a new substance.. Either I mix the two fundamental elements or I add this element to water.","Therefore, either I will create a new substance or I won't create a new substance.",1,1,0
+287,"If I study hard, I will get good grades.. If I work hard, I will get promotion.. Either I study hard or I work hard.",I will get an 8% hike in my remuneration.,2,0,1
+288,"If I plant a tree, it will grow.. If I adopt a pet, it will get a shelter.. Either I plant a tree or I adopt a pet.","Therefore, either the plant will grow or the pet will get a shelter.",1,1,0
+289,"If I go to the coast, I will see the ocean.. If I go to the forest, I will see the trees.. I will either go to the coast or the forest.",I will not see the ocean and I will not see the trees.,0,2,1
+290,"If I watch the sunset, I will see the sun going down.. If I watch the sunrise, I will see the sun coming up.. I will either watch the sunset or the sunrise.",I will spend the night in a tent at the mountain peak.,2,2,0
+291,"If I do not drink alcohol, I can drive.. If I drive after drinking alcohol, I will get arrested.. I will either not drink alcohol or drive after drinking alcohol.","Therefore, either I can drive or I will get arrested.",1,1,0
+292,"If I eat a waffle, I will be full.. If I drink milk, I will get hungry after an hour.. I will either eat a waffle or drink milk.","Therefore, I will either not be full or get hungry after an hour.",0,0,0
+293,"If I eat fish, I will get omega-3 fatty acids.. If I don't eat fish, I will not get the required proteins.. I will either eat fish or not eat fish.",I will get the required proteins by drinking milk.,2,2,0
+294,"If I go to the temple, I will pray.. If I go to the pub, I will party.. I will either go to the temple or go to the pub.","Therefore, I will either pray or party.",1,1,0
+295,"If I cook, I will eat.. If I don't cook, I will order food.. I will either cook or not cook.",I will cook food and order food.,0,2,1
+296,"If I dominate, I will be in control.. If I am not in control, I will be dominated.. I will either dominate or not be in control.",I will be in control,0,0,0
+297,"If I wear lip gloss, my lips will be shiny.. If I don't wear lip gloss, my lips will be matte.. I will either wear lip gloss or not wear lip gloss.","Therefore, my lips will either be shiny or matte.",1,1,0
+298,"If I use conditioner, my hair will be soft.. If I use a shampoo, my hair will be frizzy.. I will either use conditioner or use shampoo.",I will dye my hair with colour.,2,2,0
+299,"If I put food in the refrigerator, it will stay fresh.. If I don't put food in the refrigerator, it will go bad.. I will either put food in the refrigerator or not put food in the refrigerator.",I forget that I put the food in the refrigerator.,2,0,1
+300,"If I use a clamp, I can hold onto things.. If I don't use a clamp, I will drop things.. I will either use a clamp or not use a clamp.","Therefore, I will either hold onto things or drop things.",1,1,0
+301,"If I use a drill press, I can make a hole easily.. If I don't use a drill press, I have to use a hammer.. I will either use a drill press or not use a drill press.",I will neither make a hole easily nor use a hammer.,0,0,0
+302,"If it is spring, the weather will be nice.. If it is not spring, the weather will be cold.. It will either be spring or not spring.","Therefore, the weather will either be nice or cold.",1,1,0
+303,"If I have a tissue box, I can get tissues.. If I don't have a tissue box, I will purchase two boxes.. I will either have a tissue box or not have a tissue box.","Therefore, I will either be able to get tissues or purchase two tissue boxes.",1,1,0
+304,"If I pluck flowers in time, they will smell nicely.. If I don't pluck flowers in time, they will lose all their beauty.. I will either pluck flowers in time or not pluck flowers in time.","Therefore, flowers will either smell nicely or lose all their beauty.",1,1,0
+305,"If I have a purse, I can carry things in it.. If I don't have a purse, I will have to carry things in my hands.. I will either have a purse or not have a purse.","Therefore, I will either be able to carry things in a purse or in my hands.",1,1,0
+306,"If I send a greeting card, the recipient will be pleased.. If I don't send a greeting card, I will not be invited for the next event.. I will either send a greeting card or not send a greeting card.","Therefore, the recipient will be pleased and I will not be invited to the next event.",0,2,1
+307,"If I use a thermometer, I can measure the temperature.. If I use an odometer, I can measure the distance.. I will either use a thermometer or use an odometer.","Therefore, I will either measure the temperature or measure the distance.",1,1,0
+308,"If I close the door, the noise will be less.. If I don't close the door, I will feel cold.. I will either close the door or not close the door.","Therefore, the noise will either be less or I will feel cold.",1,1,0
+309,"If I buy a sofa, I will have a place to sit.. If I buy a TV, I will have entertainment.. I will either buy a sofa or buy a TV.",I will run out of tissue paper.,2,2,0
+310,"If I find a rubber band, I will use it to hold things together.. If I don't have a rubber band, I will have to use tape.. I will either find a rubber band or not have a rubber band.","Therefore, I will use a rubber band to hold things together or use tape.",1,1,0
+311,"If I have a clay pot, I can plant a seed in it.. If I don't have a clay pot, I will buy one.. I will either have a clay pot or not have a clay pot.","Therefore, I buy a clay pot and plant a seed.",0,1,1
+312,"If I use soap, I will be clean.. If I apply powder, I will smell nice.. I will either use soap or apply powder.","Therefore, I will either be clean or smell nice.",1,1,0
+313,"If I use a fork, I can eat noodles.. If I use a spoon, I can drink soup.. I will use either a fork or a spoon.","Therefore, I will be able to eat noodles or not drink soup .",0,0,0
+314,"If I have thread, I can sew.. If I don't have thread, I will outsource the job to a tailor.. I will either have thread or not have thread.","Therefore, I will either be able to sew or outsource the job to a tailor.",1,1,0
+315,"If I use a credit card, I can buy things now and pay later.. If I don't use a credit card, I will have to save up money to buy things.. I will either use a credit card or not use a credit card.","Therefore, I will either not be able to buy things now and pay later or save up money to buy things.",0,0,0
+316,"If I draw a picture, I can give it to my mom.. If I don't draw a picture, I will have to buy her a present.. I will either draw a picture or not draw a picture.","Therefore, I will either be able to give my mom a present or have to buy her a present.",1,1,0
+317,"If I have a camera, I can take pictures.. If I have an MP3 player, I will listen to songs.. I will either have a camera or an MP3 player.","Therefore, I will either be able to take pictures or not listen to music.",0,0,0
+318,"If I buy a canvas, I can paint a picture.. If I buy a pair of shoes, I can go cycling.. I will either buy a canvas or a pair of shoes.","Therefore, I will be able to paint a picture or go cycling.",1,1,0
+319,"If I want to watch a sailboat race, I will buy the tickets.. If I want to watch a basketball game, I will watch it on the television.. I will watch either a sailboat race or a basketball game.","Therefore, I will buy the tickets to the sailboat race or watch the basketball game on television.",1,1,0
+320,"If I want to pick up a paperclip, I will use a magnet.. If I want to walk to the store, I will use the sidewalk.. Therefore, I will pick up the paperclip or walk to the store.",I will either use a magnet or the sidewalk.,1,1,0
+321,"If I want to sleep, I will use a pillow.. If I want to float, I will use a board.. Therefore, I will either sleep or float.",I cannot sleep as I have insomnia.,2,2,0
+322,"If I want to know the time, I will look at a clock.. If I want to know how much money I have, I will look in my wallet.. Therefore, I will either look at a clock or look in my wallet.",I will check my mobile phone to see if I have money in my account.,2,2,0
+323,"If I want to add soy sauce to my rice, I will use a packet.. If I want to make ice cubes, I will use a tray.. Therefore, I will either add soy sauce to my rice or make ice cubes.",I will either use a packet or a tray.,1,1,0
+324,"After an action is performed, things normally remain as they were.. Gary must choose between his car or his bike to go to his office.. Gary is employed.. Gary ends up going in the office shuttle bus.",The office must have shuttle bus facility which Gary wasn't aware of when he was employed.,1,1,0
+325,"After an action is performed, things normally remain as they were.. Gary must choose between his car or his bike to go to his office.. Gary is employed.",The office must have shuttle bus facility which Gary wasn't aware of when he was employed.,2,2,0
+326,"After an action is performed, things normally remain as they were.. When a person has completed a TV show, they will want to watch one of two other TV shows.. The person ends up watching neither show.",The person must have not had the time to watch either show after completing their current show.,1,0,1
+327,"After an action is performed, things normally remain as they were.. When a person has completed a TV show, they will want to watch one of two other TV shows.. The person ends up watching neither show.",The person must have selected an entirely different show to watch.,0,0,0
+328,"After an action is performed, things normally remain as they were.. When ICC is deciding the location to host the world cup, they will usually pick between England and Australia.. ICC ends up choosing India.",ICC must have realized that India is the better option to host the world cup as it was expected to rain in both England and Australia.,2,1,1
+329,"After an action is performed, things normally remain as they were.. When ICC is deciding the location to host the world cup, they will usually pick between England and Australia.. ICC ends up choosing India.. India is a very rich country.",ICC must have realized that India is the better option to host the world cup as it was expected to rain in both England and Australia.,1,1,0
+330,"After an action is performed, things normally remain as they were.. When the film committee is deciding which film to send for Oscar's nominations, they will usually pick between Gully Boy and PS-I.. The film committee ends up sending Kantara.","When reviewing different films, the committee must have opted for Dangal due to the aspect of innovation.",0,2,1
+331,"After an action is performed, things normally remain as they were.. When the film committee is deciding which film to send for Oscar's nominations, they will usually pick between Gully Boy and PS-I.. The film committee ends up sending Kantara.. Kantara is a very innovative movie.","When reviewing different films, the committee must have opted for Kantara due to the aspect of innovation.",1,1,0
+332,"After an action is performed, things normally remain as they were.. When Shawn is deciding which match to go to, he will usually pick between the tennis match and the rugby match.. Shawn ends up going to the cricket match.",Shawn must have made the decision to watch the cricket match when he went to buy tickets for either the tennis match or the rugby match.,1,1,0
+333,Bhaskar is composing music with a lot of instruments.. Bhaskar has used a piano and guitar for making some sections of music.,Bhaskar is using electric guitar for composing his music.,0,2,1
+334,Dan is cooking food for two persons.. Carter and Blake are having lunch.,It is not known if Dan is cooking for Blake.,1,0,1
+335,Danny is driving a vehicle.. Aaron is in a vehicle.,It is not known if Danny and Aaron are in the same vehicle.,1,0,1
+336,Tom is taller than Jerry.. Jerry is shorter than Tim.,It is not known if Tom is shorter than Tim.,1,0,1
+337,Harsh is good at cooking.. Harsh made pasta for lunch.,It is not known if Harsh used olive oil for making pasta.,1,0,1
+338,John is taller than Jerry.. Jerry is shorter than Tim.,It is not known if John is shorter than Tim.,1,0,1
+339,Mia is a good singer.. Mia is not participating in the singing competition.,It is not known if Mia will win the singing competition.,1,0,1
+340,Jason and Blake are names of my dogs.. Most dogs have four legs.,It is not known if Blake has four legs.,1,1,0
+341,John is taller than Jerry.. Jerry is shorter than Tim.,It is not known if John is taller than Tim.,0,0,0
+342,Mia is a good singer.. Mia is participating in the singing competition.,It is not known if Mia will lose the singing competition.,1,0,1
+343,Tom is taller than Jerry.. Jerry is shorter than Tim.,It is not known if Tom is taller than John.,1,2,1
+344,Harsh is good at cooking.. Harsh made pasta for lunch.,It is not known if Harsh used tomato sauce for making pasta.,1,0,1
+345,John is taller than Jerry.. Jerry is shorter than Tim.,It is not known if Tim is shorter than John.,0,0,0
+346,Mia is a good singer.. Mia is participating in the singing competition.,It is not known if Mia will sing well in the competition.,0,0,0
+347,Tom is taller than Jerry.. Jerry is shorter than Tim.,It is not known if Tim is taller than Tom.,0,0,0
+348,Harsh is good at cooking.. Harsh made pasta for lunch.,It is not known if Harsh followed the recipe while making pasta.,1,0,1
+349,Mary is taller than Erin.. Emma is shorter than Mary.,Erin is shorter than Emma.,1,1,0
+350,John has a black car.. Most cars have four tires.,It is not known if John's car has four tires.,1,0,1
+351,Daniel is a doctor.. Doctors help people.,It is not known if Daniel helps people.,1,0,1
+352,Most birds can fly.. Penguins are birds.,It is not known if penguins can fly.,1,0,1
+353,I am a student.. Students generally go to school.,It is not known if I go to school.,1,0,1
+354,Everyone in my family is tall.. I am a part of my family.,I am tall.,1,1,0
+355,The sun is a star.. Most stars are bigger than the Earth.,It is not known if the sun is bigger than the Earth.,1,0,1
+356,John is taller than Erin.. Erin is shorter than Emma.,John is taller than Emma.,1,1,0
+357,Cats like to drink milk.. Most animals like to drink water.,It is not known if cats like to drink water.,1,0,1
+358,Most Dogs are loyal.. John has a dog.,John's dog is loyal.,0,1,1
+359,Cats like to drink milk.. Dogs like to drink milk.,It is not known if dogs like to drink water.,1,0,1
+360,Dogs are loyal.. Some pets are animals.. All pets are loyal,Some animals are loyal.,1,1,0
+361,Most people like to eat.. Cats do not like to eat.,It is not known if cats are people.,1,0,1
+362,Cats like to drink milk.. Most animals like to drink water.,Cats like to drink water.,0,1,1
+363,Most people like to eat.. Most animals like to eat.,It is not known if people are animals.,1,0,1
+364,John and Tim are going to the same restaurant.. Tim does not like Chinese food.,John does not like Chinese food.,0,1,1
+365,John and Tim are going to the same restaurant.. John likes Chinese food.,It is not known if Tim likes Chinese food.,1,0,1
+366,Sasha is playing a video game.. Sasha is not playing Call of Duty.,Sasha is playing a different video game.,1,0,1
+367,John is going to the movies.. John is not going to see a horror movie.,John is going to see a different movie.,1,0,1
+368,The teacher is grading papers.. The teacher is not grading math papers.,The teacher is grading different papers.,1,2,1
+369,The cat is sleeping on the bed.. The cat is not sleeping on the pillow.,The cat is sleeping on a different part of the bed.,1,2,1
+370,The man has a beard.. The man does not have a mustache.,The man has facial hair.,1,1,0
+371,The child is crying.. The child is not hungry.,The child is crying for a different reason.,1,0,1
+372,The poet is writing a new poem.. The poet is not writing about love.,The poet is writing about a different topic.,1,0,1
+373,Most dogs have four legs.. The animal in the video only has three legs.,The animal in the video is not a dog.,1,0,1
+374,The moon is bright tonight.. The moon is not bright during the day.,It is not daytime.,1,2,1
+375,Spiders have eight legs.. The creature in the corner is not a spider.,The creature in the corner does not have eight legs.,1,1,0
+376,Mammals are warm-blooded.. Dogs are mammals.,Dogs are warm-blooded.,1,1,0
+377,Roses have thorns.. The flower in my hand is not a rose.,The flower in my hand does not have thorns.,1,1,0
+378,The sun is out now.. The sun is not out at night.,It is daytime.,1,2,1
+379,There is a lot of traffic today.. Traffic is light during the weekends.,It is not the weekend.,1,1,0
+380,Most mammals have fur.. Dogs are mammals.,All dogs have fur.,0,1,1
+381,All guns that are a long range rifles will use 75mm bullets.. KAR-98 is a rifle type gun,The KAR-98 rifle uses 75mm bullets.,1,1,0
+382,All felines under 100 pounds can be domesticated.. Cats are felines.,Cats are felines under 100 pounds and are domesticated.,1,1,0
+383,All Apple handsets are always deisgned in Palo Alto California.. Apple handsets do not have an earphone jack.. iPhone 14 is an Apple handset.,The iPhone 14 handset is designed in Palo Alto California and does not have a earphone jack.,1,1,0
+384,All dogs have four legs.. Lassie is a dog.,Lassie has four legs.,1,1,0
+385,All animals that live in the water have gills.. Sharks are animals.,Sharks live in the water and have gills.,1,1,0
+386,All planets in our solar system have moons.. Venus is a planet.,Venus has moons.,1,1,0
+387,All birds can fly.. Ostriches are birds.,Ostriches can fly.,0,1,1
+388,All fish live in water.. Piranhas are fish.,Piranhas live in water.,1,1,0
+389,All leaves are green.. Lettuce is a leaf.,Lettuce is a green leaf.,1,1,0
+390,All planets orbit around a star.. Mercury is a planet.,Mercury orbits around a star.,1,1,0
+391,All birds have wings.. Owls are birds.,Owls have wings.,1,1,0
+392,All dogs are animals.. Dalmatians are dogs.,Dalmatians are animals.,1,1,0
+393,All cats are animals.. Siamese are cats.,Siamese are animals.,1,1,0
+394,All dogs like to play fetch.. Dalmatians are dogs.,Dalmatians like to play fetch.,1,1,0
+395,All dogs need to be trained.. Dalmatians are dogs.,Dalmatians need to be trained.,1,1,0
+396,All dogs like to eat bones.. Rover is a dog.,Rover likes to eat bones.,1,1,0
+397,All cars with four-wheel drive can go off-road.. The Toyota's RAV4 is a car.,The Toyota's RAV4 can go off-road.,1,1,0
+398,All animals that have fur can survive in cold climates.. Polar bears are animals.,Polar bears can survive in cold climates.,1,1,0
+399,All countries in NATO are democracies.. The United States is a country.,The United States is a democracy.,1,1,0
+400,All members of the House of Representatives are elected officials.. Nancy Pelosi is a member of the House of Representatives.,Nancy Pelosi is an elected official.,1,1,0
+401,All living things need water to survive.. Plants are living things.,Plants need water to survive.,1,1,0
+402,All birds have wings.. Ostriches are birds.,Ostriches have wings.,1,1,0
+403,All mammals have fur.. Dogs are mammals.,Dogs have fur.,1,1,0
+404,All planets in our solar system orbit the sun.. Mercury is a planet.,Mercury orbits the sun.,1,1,0
+405,All insects have six legs.. Spiders are not insects.,Spiders do not have six legs.,1,0,1
+406,All plants need sunlight to grow.. Sunflowers are plants.,Sunflowers need sunlight to grow.,1,1,0
+407,All liquids are made up of atoms.. Water is a liquid.,Water is made up of atoms.,1,1,0
+408,All stars are larger than planets.. The sun is a star.,The sun is larger than planets.,1,1,0
+409,All galaxies are made up of stars.. The Milky Way is a galaxy.,The Milky Way is made up of stars.,1,1,0
+410,All elements are made up of atoms.. Oxygen is an element.,Oxygen is made up of atoms.,1,1,0
+411,All gases are made up of molecules.. Oxygen is a gas.,Oxygen is made up of molecules.,1,1,0
+412,All solids are made up of atoms.. Diamonds are solids.,Diamonds are made up of atoms.,1,1,0
+413,All American citizens are allowed to vote.. John is an American citizen.,John is an American citizen who is allowed to vote.,1,1,0
+414,All members of the Republican party are conservative.. John is a member of the Republican party.,John is a member of the Republican party and is conservative.,1,1,0
+415,All members of the Democratic party are liberal.. John is a member of the Democratic party.,John is a member of the Democratic party and is liberal.,1,1,0
+416,All countries in NATO are in Europe.. The United States is in NATO.,The United States is in NATO and is in Europe.,1,1,0
+417,All mammals have live births.. Bats are mammals.,Bats have live births.,1,1,0
+418,All birds have wings.. Crows are birds.,Crows have wings.,1,1,0
+419,All cats have fur.. Siamese cats are cats.,Siamese cats have fur.,1,1,0
+420,All plants are living things.. Trees are plants.,Trees are living things.,1,1,0
+421,All living things need oxygen to live.. Humans are living things.,Humans need oxygen to live.,1,1,0
+422,All animals have a brain.. Dogs are animals.,Dogs have a brain.,1,1,0
+423,All animals need food to live.. Bears are animals.,Bears need food to live.,1,1,0
+424,All animals need water to live.. Dolphins are animals.,Dolphins need water to live.,1,1,0
+425,All animals breathe air.. Ostriches are animals.,Ostriches breathe air.,1,1,0
+426,All dogs have tails.. Siberian Huskies are dogs.,Siberian Huskies have tails.,1,1,0
+427,All birds are animals with wings.. Penguins are animals.,Penguins have wings.,0,1,1
+428,All countries in NATO are in Europe.. Turkey is a country in NATO.,Turkey is a country in Europe.,1,1,0
+429,All clouds are white.. Cirrus clouds are clouds.,Cirrus clouds are white.,1,1,0
+430,All oceans have fish.. The Pacific ocean is an ocean.,The Pacific Ocean has fish.,1,1,0
+431,All leaves are green.. Trees have leaves.,Trees have green leaves.,1,1,0
+432,A is taller than B.,It is not known if A is the tallest.,1,0,1
+433,The cat is on the mat.,It is not known if the cat is off the mat.,1,0,1
+434,All dogs are animals.,It is not known if all animals are dogs.,1,0,1
+435,Socrates is a man.,It is not known if Socrates is a woman.,1,0,1
+436,The moon orbits around the Earth.,It is not known if the Earth orbits around the moon.,1,0,1
+437,The sun is a star.,It is not known if the sun is a planet.,1,0,1
+438,Roses are red.,It is not known if roses are blue.,1,0,1
+439,The sky is blue.,It is not known if the sky is green.,1,0,1
+440,All men are mortal.,It is not known if all mortals are men.,1,0,1
+441,The Earth is round.,It is not known if the Earth is flat.,1,0,1
+442,2 + 2 = 4,It is not known if 2 + 2 = 5.,1,0,1
+443,The United States is a democracy.,It is not known if the United States is a republic.,1,0,1
+444,Water is necessary for life.,It is not known if air is necessary for life.,1,0,1
+445,The square root of 9 is 3.,It is not known if the square root of 4 is 3.,1,2,1
+446,Gold is a metal.,It is not known if gold is an element.,1,0,1
+447,The sun is hot.,It is not known if the sun is cold.,1,0,1
+448,The sky is cloudy.,It is not known if the sky is clear.,1,0,1
+449,The Earth is a planet.,It is not known if the Earth is a star.,1,0,1
+450,The Earth is the third planet from the sun.,It is not known if the Earth is the fourth planet from the sun.,1,0,1
+451,Venus is the second planet from the sun.,It is not known if Venus is the third planet from the sun.,1,0,1
+452,Mercury is the closest planet to the sun.,It is not known if Mercury is the farthest planet from the sun.,1,0,1
+453,Mars is the fourth planet from the sun.,It is not known if Mars is the fifth planet from the sun.,0,0,0
+454,Jupiter is the fifth planet from the sun.,It is not known if Jupiter is the sixth planet from the sun.,1,0,1
+455,Saturn is the sixth planet from the sun.,It is not known if Saturn is the seventh planet from the sun.,1,0,1
+456,Uranus is the seventh planet from the sun.,It is not known if Uranus is the eighth planet from the sun.,1,0,1
+457,Neptune is the eighth planet from the sun.,It is not known if Neptune is the ninth planet from the sun.,0,0,0
+458,Pluto is the ninth planet from the sun.,It is not known if Pluto is the tenth planet from the sun.,0,0,0
+459,The Earth is the largest planet in the solar system.,It is not known if the Earth is the smallest planet in the solar system.,0,0,0
+460,Venus is the hottest planet in the solar system.,It is not known if Venus is the coldest planet in the solar system.,0,0,0
+461,Mercury is the smallest planet in the solar system.,It is not known if Mercury is the largest planet in the solar system.,0,0,0
+462,John is walking his dog.,It is known that John has a dog.,0,1,1
+463,Manny is a doctor.,It is known that Manny has a medical degree.,0,1,1
+464,Billie is studying for her math test.,It is known that Billie will do well on her math test.,2,1,1
+465,Susan is taller than Jane.. Jane is taller than Stacy.. Stacy is taller than Billie.,It is known that Susan is taller than Billie.,1,2,1
+466,A is less than B.. A is less than D.. C is less than D.,It is not known if A is less than C.,1,2,1
+467,John arrived at his destination.,It is not known if John took the bus or the train.,1,0,1
+468,The element with the atomic number of 1 is hydrogen.,It is known that the element with the atomic number of 1 is not oxygen.,1,0,1
+469,The first president of the United States was George Washington.,It is known that the first president of the United States was not John Adams.,1,0,1
+470,The capital of Australia is Canberra.,It is known that the capital of Australia is not Sydney.,1,0,1
+471,The Statue of Liberty was a gift from France.,It is known that the Statue of Liberty was not a gift from Germany.,1,0,1
+472,There are seven days in a week.,It is known that there are not seven days in a month.,1,2,1
+473,The moon orbits the earth.,It is known that the moon does not orbit the sun.,1,2,1
+474,The sun is a star.,It is known that the sun is not a planet.,1,0,1
+475,Bill Gates is a billionaire.,It is known that Bill Gates is a wealthy man.,1,1,0
+476,John arrived at his destination.. John took the bus.,It is not known if John's bus arrived at its destination.,1,0,1
+477,A is less than B.. A is less than C.,It is known that A is less than B and A is less than C.,1,2,1
+478,Manny is a doctor.. Manny has a medical degree.,It is known that Manny is qualified to be a doctor.,1,1,0
+479,John has a dog.. John is walking his dog.,It is known that John is taking his dog for a walk.,1,1,0
+480,John arrived at his destination.. John took the train.,It is known that John did not take the bus.,1,2,1
+481,X started the assignment.. Y completed the assignment.. Both X and Y submitted the assignments,It is known that both X and Y completed and submitted the assignments.,1,1,0
+482,The square root of 64 is 8.. The square root of 64 is not 9.,It is known that the square root of 64 is not 9.,1,1,0
+483,There are seven days in a week.. There are thirty days in a month.,It is known that there are more days in a month than in a week.,1,2,1
+484,Josh went to the party.. All of Josh's friends were there.. Only Josh's friends were invited.,Apart from Josh's friends we do not know who else was at the party.,1,0,1
+485,Mary is at the store.. Only employees are allowed in the store.. Mary is not an employee.,Apart from employees we do not know who else is in the store.,0,0,0
+486,John is in the meeting.. Only managers are allowed in the meeting.. John is not a manager.,Apart from managers we do not know who else is in the meeting.,0,0,0
+487,Bill went to the conference.. All of Bill's colleagues were there.. Only Bill's colleagues were invited.,Apart from Bill and his colleagues we do not know who else was at the conference.,1,0,1
+488,John is at the park.. Only residents are allowed in the park.. John is a resident.,Apart from residents we do not know who else is in the park.,1,0,1
+489,Mike is at the library.. Only students are allowed in the library.. Mike is a student.,Apart from students we do not know who else is in the library.,1,0,1
+490,Mary is at the beach.. Only locals are allowed on the beach.. Mary is not a local.,Apart from locals we do not know who else is on the beach.,0,0,0
+491,John is at the restaurant.. Only customers are allowed in the restaurant.. John is not a customer.,Apart from customers we do not know who else is in the restaurant.,1,0,1
+492,Bill is at the club.. Only members are allowed in the club.. Bill is not a member.,Apart from members we do not know who else is in the club.,0,0,0
+493,Mike is at the gym.. Only athletes are allowed in the gym.. Mike is an athlete.,Apart from athletes we do not know who else is in the gym.,0,0,0
+494,Mary is at the movie theater.. Only ticket holders are allowed in the theater.. Mary does not have a ticket.,Apart from ticket holders we do not know who else is in the theater.,1,0,1
+495,John is in the museum.. Only tourists are allowed in the museum.. John is not a tourist.,Apart from John and tourists we do not know who else is in the museum.,1,0,1
+496,Bill is at the park.. Only children are allowed in the park.. Bill is not a child.,Apart from children we do not know who else is in the park.,0,0,0
+497,Mike is at the bar.. Only adults are allowed in the bar.. Mike is an adult.,Apart from adults we do not know who else is in the bar.,1,0,1
+498,Mary is at the park.. Only locals are allowed in the park.. Mary is not a local.,Apart from locals we do not know who else is in the park.,0,0,0
+499,John is at the zoo.. Only children are allowed in the zoo.. John is a child.,Apart from children we do not know who else is in the zoo.,1,0,1
+500,Bill is at the aquarium.. Only locals are allowed in the aquarium.. Bill is not a local.,Apart from locals we do not know who else is in the aquarium.,0,0,0
+501,Mike is at the club.. Only members are allowed in the club.. Mike is a member.,Apart from members we do not know who else is in the club.,1,0,1
+502,Mary is at the festival.. Only locals are allowed in the festival.. Mary is not a local.,Apart from locals we do not know who else is in the festival.,0,0,0
+503,John is at the game.. Only players are allowed in the game.. John is a player.,Apart from players we do not know who else is in the game.,1,0,1
+504,I am doing my laundry.. I only have white clothes in the laundry.. My laundry detergent is color safe.,My laundry detergent is not going to affect the color of my clothes.,0,0,0
+505,I am doing my laundry.. My laundry is only red clothes.. My laundry detergent is color safe.,My laundry detergent is going to affect the color of my clothes.,0,0,0
+506,Bill Gates is a billionaire.. Jeff Bezos is a billionaire.. Wealthy people are generous.,Bill Gates and Jeff Bezos are generous people.,1,1,0
+507,The cat is on the mat.. The mat is on the floor.. The floor is clean.,The cat is on a clean surface.,1,2,1
+508,George Washington was the first U.S. President.. John Adams was the second U.S. President.. The first and second U.S. Presidents were men.,George Washington and John Adams were men.,1,1,0
+509,A right triangle has two acute angles.. An isosceles triangle has two acute angles.. A right triangle is not an isosceles triangle.,A right triangle does not have two acute angles.,0,0,0
+510,The sun is a star.. All stars are burning gases.. The sun is a burning gas.,The sun is a star and a burning gas.,1,1,0
+511,The square root of four is two.. Two squared is four.. The square root of four is not only two.,Only two squared is not four.,0,0,0
+512,All dogs are animals.. All animals have four legs.. Dogs have four legs.,Dogs are animals and they have four legs.,1,1,0
+513,Cats like to drink milk.. Milk is white.. Cats like to drink white things.,Cats like to drink milk because it is white.,0,1,1
+514,The moon orbits around Earth.. The Earth orbits around the sun.. The moon does not orbit around the sun.,The moon orbits around Earth and not around the sun.,1,0,1
+515,All planets orbit the sun.. All moons orbit a planet.. The moon orbits the sun.,The moon orbits the sun because it orbits a planet.,0,1,1
+516,All men are mortal.. Socrates is a man.. Socrates is mortal.,Socrates is a man and he is mortal.,1,1,0
+517,All triangles have three sides.. A three-sided figure is a triangle.. A triangle has three angles.,"A triangle has three sides, and three angles.",1,1,0
+518,All squares are rectangles.. All rectangles have four sides.. All squares have four sides.,Squares are rectangles and they have four sides.,1,1,0
+519,No dogs are cats.. Dogs are animals.. Cats are animals.,"Dogs are animals, and cats are animals.",1,1,0
+520,All plants are living organisms.. All living organisms need water to live.. Plants need water to live.,Plants are living organisms and they need water to live.,1,1,0
+521,John is taller than Bill.. Bill is shorter than Jake.. Jake is taller than John.,Bill is shorter than Jake and Jake is taller than John.,0,2,1
+522,All dogs are animals.. Dogs like to chase cats.. Cats are animals.,Dogs like to chase cats because cats are animals.,1,1,0
+523,All triangles have three sides.. Isosceles triangles have two equal sides.. An isosceles triangle is not a right angled triangle.,An isosceles triangle does not have three sides.,0,0,0
+524,All living things need water.. Sponges are living things.. Sponges need water.,Sponges are living things and they need water.,1,1,0
+525,Some planets have moons.. Pluto has moons.,Pluto is a planet.,0,1,1
+526,All dogs are mammals.. Some Mammals have fur.,Dogs have fur.,0,1,1
+527,All squares are rectangles.. All rectangles have four sides.. Squares have four sides.,Squares are rectangles and they have four sides.,1,1,0
+528,All birds can fly.. Ostriches are not birds.. Ostriches cannot fly.,Ostriches cannot fly because they are not birds.,1,0,1
+529,All mammals are animals.. All animals have four legs.. Mammals have four legs.,Mammals are animals and they have four legs.,1,1,0
+530,Water freezes at 32 degrees Fahrenheit.. It is currently 10 degrees Fahrenheit outside.. The water will freeze outside.,"Water freezes at 32 degrees Fahrenheit and it is currently 10 degrees Fahrenheit outside, so the water will freeze outside.",1,1,0
+531,All planets orbit around the sun.. Mercury is a planet.. Mercury orbits around the sun.,Mercury is a planet and it orbits around the sun.,1,1,0
+532,The moon orbits around Earth.. The moon is a satellite.. All satellites orbit around a planet.,The moon orbits around Earth because it is a satellite.,1,1,0
+533,The teacher is writing on the board.. Some the students are facing the board.. The teacher is facing the class.,"Apart from the teacher, we do not know who else is writing on the board.",1,0,1
+534,"If Aron is elected, he will lower tax rates.. If Baron learns to program, he will find a good job.. Either Aron gets elected or Baron does not get a good job.",Aron will lower the taxes orBaron does not learn to program,1,1,0
+535,"If C starts jogging every day, he will get into good shape.. If it rains, D will lose the match.. Either C starts jogging or D will not lose the match.",C will get into good shape or it  will not rain.,1,1,0
+536,"If there is an internet connection, then we can watch Youtube.. If flash floods occur, the university will be closed.. Either we have an internet connection, or the university will not be closed.",We can watch Youtube. or flash floods do not occur,1,1,0
+537,"If the sun is out, then it is daytime.. If it is nighttime, then the moon is out.. Either the sun is out, or the moon is not out.",It is daytime or it is not nighttime.,1,1,0
+538,"If the sun is out, then it is daytime.. If it is nighttime, then the moon is out.. Either the sun is out, or the moon is not out.",It is daytime or it is not nighttime.,1,1,0
+539,"If A is a triangle, then A has three sides.. If B is a square, then B has four sides.. Either A has three sides, or B does not have four sides.",A is a triangle or B is not a square.,1,0,1
+540,"If C is a multiple of 3, then C is even.. If D is a multiple of 4, then D is even.. Either C is even, or D is not even.",C is a multiple of 3 or D is not a multiple of 4.,1,0,1
+541,"If Barney goes to the party, he will have fun.. If Cameron goes to the movie, he will have dinner. Either Barney goes to the party, or Cameron will not have dinner.",Barney will have fun or Cameron does not go to the movie.,1,1,0
+542,"If Dave is happy, then he will sing.. If Erin is sad, she will cry.. Either Dave is happy, or Erin will not cry.",Dave will sing or Erin is not sad.,1,0,1
+543,"If Fred is a doctor, then he will make a lot of money.. If Gina is a nurse, then she will make a lot of money.. Either Fred is a doctor, or Gina will not make a lot of money.",Fred is a doctor or Gina is not a nurse.,1,0,1
+544,"If Harry is tall, then he will play basketball.. If Ian is short, then he will play soccer.. Either Harry is tall, or Ian will not play soccer.",Harry is tall or Ian is not short.,1,1,0
+545,"If James is a good student, then he will get a scholarship.. If Kaitlyn is a bad student, then she will not get a scholarship.. Either James is a good student, or Kaitlyn will not get a scholarship.",James is a good student or Kaitlyn is not a bad student.,1,1,0
+546,"If Lily is smart, then she will get into a good college.. If Mark is dumb, then he will not get into a good college.. Either Lily is smart, or Mark will get into a good college.",Lily  goes to a good college or Mark is not dumb.,1,0,1
+547,"If Nadia is hungry, she will eat.. If Owen is thirsty, he will drink.. Either Nadia is hungry, or Owen will not drink.",Nadia will eat or Owen is not thirsty.,1,1,0
+548,"If Rachel is tired, she will sleep.. If Stephen is awake, he will study.. Either Rachel is  tired, or Stephen will not study.",Rachel will sleep or Stephen will sleep.,1,1,0
+549,"If Timmy is happy, he will smile.. If Tyler is angry, he will yell.. Either Timmy is happy, or Tyler will not yell.",Timmy will smile or Tyler is not angry.,1,0,1
+550,"If Vanessa is excited, she will jump.. If Wesley is bored, he will sleep.. Either Vanessa is excited, or Wesley will not sleep.",Vanessa will jump or Wesley is excited.,1,0,1
+551,"If Xavier is good at math, he will get an A in the class.. If Yolanda is bad at math, she will get a C in the class.. Either Xavier is good at math, or Yolanda will not get a C in the class.",Xavier will get an A in the class or Yolanda is not bad at math.,1,0,1
+552,"If Zeke is good at basketball, he will make the team.. If Zoe is bad at basketball, she will not make the team.. Either Zeke is good at basketball, or Zoe will make the team.",Zeke will make the team or Zoe is not bad at basketball.,1,0,1
+553,"If Alice is happy, she will sing.. If Bob is sad, he will cry.. Either Alice is happy, or Bob will not cry.",Alice will sing or Bob is not sad.,1,0,1
+554,"If Chris is a doctor, he will make a lot of money.. If Danielle is a nurse, she will make a lot of money.. Either Chris is a doctor, or Danielle will not make a lot of money.",Chris is a doctor or Danielle is not a nurse.,1,0,1
+555,"If Ethan is tall, he will play basketball.. If Fiona is short, she will play soccer.. Either Ethan is tall, or Fiona will not play soccer.",Ethan will play basketball or Fiona is not short.,1,1,0
+556,"If Karl is smart, he will get into a good college.. If Lisa is dumb, she will not get into a good college.. Either Karl is smart, or Lisa will get into a good college.",Karl goes to a good college or Lisa is not dumb.,1,0,1
+557,"If Emma is tired, she will sleep.. If Felix is awake, he will study.. Either Emma is tired, or Felix will not study.",Emma will sleep or Felix is not awake.,1,1,0
+558,"If George is good at math, he will get an A in the class.. If Heather is bad at math, she will get a C in the class.. Either George is good at math, or Heather will not get a C in the class.",George will get an A in the class or Heather is not bad at math.,1,0,1
+559,"If Karen is happy, she will sing.. If Kyle is sad, he will cry.. Either Karen is happy, or Kyle will not cry.",Karen will sing or Kyle is not sad.,1,0,1
+560,"If Ian is good at basketball, he will make the team.. If Jasmine is bad at basketball, she will not make the team.. Either Ian is good at basketball, or Jasmine will make the team.",Ian will make the team or Jasmine is not bad at basketball.,1,0,1
+561,"If Lisa is happy, she will sing.. If Matt is sad, he will cry.. Either Lisa is happy, or Matt will not cry.",Lisa will sing or Matt is not sad.,1,0,1
+562,"If Martha rides a cab, she will arrive at office on time.. If Greg drinks coffee, he will do laundry today.. Either Martha rides a cab, or Greg will not do laundry today.",Martha will arrive at the office on time or Greg does not drink coffee today.,1,1,0
+563,"If the wind is blowing, it is cloudy.. If it is not sunny, then it will rain.. Either the wind is blowing, or it will not rain.",It is cloudy or it is  sunny.,1,1,0
+564,"If Jen is at home, she is sleeping.. If Brad is at the movies, he is not sleeping.. Either Jen is at home, or Brad will not be sleeping.",Jen is sleeping or Brad is not at the movies.,1,1,0
+565,"If Chris is outside, he is playing basketball.. If Sam is inside, he is studying.. Either Chris is outside, or Sam does not study.",Chris is playing basketball or Sam is not inside.,1,1,0
+566,"If Matt is in his car, he is driving to work.. If Lisa is at work, she is not driving her car.. Either Matt is in his car, or Lisa will be driving her car.",Matt is driving to work or Lisa will not be at work.,1,0,1
+567,"If Josh is at school, he is learning.. If Sarah is not at school, she is not learning.. Either Josh will be at school, or Sarah will be learning.",Josh is learning or Sarah is at school.,1,1,0
+568,"If Alex is at home, he is watching TV.. If Ben is not at home, he is not playing videogames.. Either Alex will be at home, or Ben is playing video games.",Alex is watching TV or Ben is at home.,1,1,0
+569,"If Karen is at the gym, she is working out.. If Brian is not at the gym, he is not working out.. Either Karen will be at the gym, or Brian is working out.",Karen is working out or Brian is at the gym.,1,1,0
+570,"If Tim is at the library, he is studying.. If Nancy is not at the nursery, she is not gardening.. Either Tim will be at the library, or Nancy is gardening.",Tim is studying or Nancy is at the nursery.,1,1,0
+571,"If Ryan is at the beach, he is swimming.. If Stephanie is not at the beach, she is not swimming.. Either Ryan will be at the beach, or Stephanie is swimming.",Ryan is swimming or Stephanie is at the beach.,1,1,0
+572,"If John is at the park, he is playing soccer.. If Jane is not at the park, she is not playing soccer.. Either John will be at the park, or Jane is playing soccer.",John is playing soccer or Jane is at the park.,1,1,0
+573,"If Christine is at school, she is studying.. If David is not at school, he is not working.. Either Christine will be at school, or David is working.",Christine is studying or David is at school.,1,1,0
+574,"If Evelyn is at the library, she is reading.. If Frank is not at the library, he is not writing.. Either Evelyn will be at the library, or Frank is writing.",Evelyn is reading or Frank is at the library.,1,1,0
+575,"If George is at the movies, he is watching a movie.. If Heather is not at the movies, she is not eating popcorn.. Either George will be at the movies, or Heather is eating popcorn.",George is watching a movie or Heather is at the movies.,1,1,0
+576,"If Ian is at the park, he is playing on the swings.. If Jenn is not at the park, she is not playing on the slide.. Either Ian will be at the park, or Jenn is playing on the slide.",Ian is playing on the swings or Jenn is at the park.,1,1,0
+577,"If Kirk is at the beach, he is swimming in the ocean.. If Lisa is not at the beach, she is not building a sandcastle.. Either Kirk will be at the beach, or Lisa is building a sandcastle.",Kirk is swimming in the ocean or Lisa is at the beach.,1,1,0
+578,"If Mary is at the store, she is buying groceries.. If Neil is not at the store, he is not buying a gift.. Either Mary will be at the store, or Neil is buying a gift.",Mary is buying groceries or Neil is at the store.,1,1,0
+579,"If Pam is at work, she is typing on her computer.. If Quinn is not at work, he is not talking on the phone.. Either Pam will be at work, or Quinn is talking on the phone.",Pam is typing on her computer or Quinn is at work.,1,1,0
+580,"If Rachel is at the restaurant, she is eating.. If Seth is not at the restaurant, he is not drinking.. Either Rachel will be at the restaurant, or Seth is drinking.",Rachel is eating or Seth is at the restaurant.,1,1,0
+581,"If Tiffany is at her friend's house, she is playing games.. If Tyler is not at his friend's house, he is not watching TV.. Either Tiffany will be at her friend's house, or Tyler is watching TV.",Tiffany is playing games or Tyler is at his friend's house.,1,1,0
+582,"If Ursula is at the library, she is checking out books.. If Victor is not at the library, he is not using the computer.. Either Ursula will be at the library, or Victor is using the computer.",Ursula is checking out books or Victor is at the library.,1,1,0
+583,"If Willow is at her friend's house, she is sleeping over.. If Xavier is not at his friend's house, he is not playing games.. Either Willow will be at her friend's house, or Xavier is playing games.",Willow is sleeping over or Xavier is at his friend's house.,1,1,0
+584,"If Alanis is at the park, she is playing on the swings. . If Brandon is not at the park, he is not playing on the slide.. Either Alanis will be at the park, or Brandon is playing on the slide.",Alanis is playing on the swings or Brandon is at the park.,1,1,0
+585,A lot of people who work at Google are millionaires.,Steven works at Google and he is a millionaire.,1,1,0
+586,"All of the students who have taken the course, have said it was very difficult.","John took the course, and he said it was very difficult.",1,1,0
+587,Some people have a fear of clowns.,Sophie has a fear of clowns.,1,1,0
+588,All of the medications have side effects.,The medication has side effects.,1,1,0
+589,"All of the candidates who have been interviewed, have not gotten the job.","John interviewed for the job, and he did not get it.",1,1,0
+590,Some of the students have not turned in their homework.,John has not turned in his homework.,1,1,0
+591,Some of the employees are not loyal to the company.,John is not loyal to the company.,1,1,0
+592,Some of the dogs are not house trained.,John's dog is not house trained.,1,1,0
+593,Some of the countries are not safe to visit.,Syria is not safe to visit.,1,1,0
+594,The apocalypse is coming and some people are not prepared.,John is not prepared for the apocalypse.,1,1,0
+595,Some of the students have not read the book.,John has not read the book.,1,1,0
+596,The test is hard and some people will fail.,John will fail the test.,1,1,0
+597,Some of the keys on the keyboard are not working.,The 'a' key is not working.,1,2,1
+598,Some of the people are not telling the truth.,John is not telling the truth.,1,1,0
+599,Some of the shoes are not comfortable.,John's shoes are not comfortable.,1,1,0
+600,Some of the food is not edible.,John's food is not edible.,1,1,0
+601,Some of the furniture is not comfortable.,John's furniture is not comfortable.,1,1,0
+602,Some of the students have not paid their tuition.,Pran has not paid his tuition.,1,2,1
+603,Some of the pills are not working.,John's pills are not working.,1,1,0
+604,All of the shoes in Sophie's closet are size 7.,Sophie's red shoes are size 7.,1,2,1
+605,Some of the dogs like to play fetch.,Max likes to play fetch.,1,1,0
+606,All of the dogs in the park are golden retrievers.,The dog that I saw in the park was a golden retriever.,1,1,0
+607,Some of the cats like to drink milk.,Oscar likes to drink milk.,1,1,0
+608,All of the birds can fly.,The bird outside my window can fly.,1,1,0
+609,Some of the flowers are not blooming.,Mike's flowers are not blooming.,1,1,0
+610,All of the rocks are covered in moss.,The rock is covered in moss.,1,1,0
+611,Some of the people are not telling the truth.,You are not telling the truth.,1,1,0
+612,Some of the dogs are not well trained.,Rufus is not a well-trained dog.,1,1,0
+613,Some of the students are not studying for the test.,You are not studying for the test.,1,1,0
+614,Some of the politicians are not being honest.,The politician is not being honest.,1,1,0
+615,All of the athletes are not drug tested.,Howard is not drug tested.,0,1,1
+616,Some of the books are not well written., Space odyssey book is not well written.,1,1,0
+617,Not all of the students are honest.,Mike is not an honest student.,1,1,0
+618,Some of the politicians are not corrupt.,McQueen is not a corrupt politician.,0,1,1
+619,All the apples are not red.,The apple I am eating is not red.,0,1,1
+620,Some of the people are not tall.,Sarah is not tall.,1,1,0
+621,All the animals are not friendly.,The Gorilla is not friendly.,0,1,1
+622,Some of the kids are not good at math., Tim is not good at math.,1,1,0
+623,Some of the parents are not good at communicating., Maria's parents are not good at communicating.,1,1,0
+624,Some of the teachers are not good at teaching., Ms. Smith is not good at teaching.,1,1,0
+625,Some of the drivers are not good at driving., The bus driver is not good at driving.,1,1,0
+626,Some of the students are not good at studying., Ashley is not good at studying.,1,1,0
+627,Some of the apples are not red., The green apple is not red.,1,1,0
+628,Some of the pencils are not sharp., The black pencil is not sharp.,1,2,1
+629,Some of the birds are not friendly., The Pelican is not friendly.,1,1,0
+630,Some of the shoes are not comfortable.,The Adidas shoes are not comfortable.,1,1,0
+631,Some of the pictures are not pretty., The black and white picture is not pretty.,1,1,0
+632,Some of the people are not tall., Sarah is not tall.,1,1,0
+633,Some of the animals are not friendly.,The Gorilla is not friendly.,1,1,0
+634,Some of the kids are not good at math., Tim is not good at math.,1,1,0
+635,Some of the parents are not good at communicating., Maria's parents are not good at communicating.,1,1,0
+636,Some of the teachers are not good at teaching., Ms. Smith is not good at teaching.,1,1,0
+637,Some of the drivers are not good at driving., The bus driver is not good at driving.,1,1,0
+638,Some of the students are not good at studying., Ashley is not good at studying.,1,1,0
+639,Some of the apples are not red., The green apple is not red.,1,1,0
+640,Some of the pencils are not sharp., The black pencil is not sharp.,1,2,1
+641,Some of the birds are not friendly., The Pelican is not friendly.,1,1,0
+642,Some of the shoes are not comfortable., The Adidas shoes are not comfortable.,1,1,0
+643,Some of the pictures are not pretty., The black and white picture is not pretty.,1,1,0
+644,The sun is out.,The sun is out or the moon is out.,1,0,1
+645,I am doing my homework.,I am doing my homework or I am playing soccer.,1,0,1
+646,I am reading a book.,I am reading a book or I am sleeping.,1,0,1
+647,I am eating an apple.,I am eating an apple or I am eating a banana.,1,2,1
+648,I am going to the park.,I am going to the park or I am going to the library.,1,0,1
+649,It is a weekday.,It is a weekday or it is a weekend.,1,2,1
+650,I am going to the gym.,I am going to the gym or I am eating healthy.,1,2,1
+651,I am studying for my test.,I am studying for my test or I will fail.,1,0,1
+652,I am doing the laundry.,I am doing the laundry or I am going out.,1,2,1
+653,The sun is shining.,The sun is shining or the moon is out.,1,0,1
+654,I am doing my homework.,I am doing my homework or I will get a bad grade.,1,0,1
+655,I am going to work.,I am going to work or I am going to get fired.,1,0,1
+656,I am going to the store.,I am going to the store or I need to buy something.,1,0,1
+657,I am eating breakfast.,I am eating breakfast or I am going to school.,1,2,1
+658,I finished my project.,I finished my project or I am going to get a good grade.,1,0,1
+659,I am doing the dishes.,I am doing the dishes or I am going to bed.,1,0,1
+660,I am going to the movies.,I am going to the movies or I am going out.,1,0,1
+661,I am doing my taxes.,I am doing my taxes or I am going to get a refund.,1,0,1
+662,I am going for a run.,I am going for a run or I am going to the gym.,1,0,1
+663,I am eating dinner.,I am eating dinner or I am going to bed.,1,0,1
+664,I am taking a shower.,I am taking a shower or I am going to bed.,1,0,1
+665,I am going to the beach.,I am going to the beach or I am going swimming.,1,2,1
+666,I am a student.,I am a student or I am not a student.,1,0,1
+667,The cat is on the mat.,The cat is on the mat or the cat is not on the mat.,1,0,1
+668,I am doing my homework.,I am doing my homework or I am  watching baseball match.,1,2,1
+669,The sun is shining.,The sun is shining or it is cloudy.,1,0,1
+670,I am doing my chores.,I am doing my chores or I am playing football.,1,0,1
+671,John is taller than Bill.,John is taller than Bill or John is taller than Kane.,1,0,1
+672,I am doing my homework.,I am doing my homework or I am playing cricket.,1,2,1
+673,Karthik pays wifi bill every month.,Karthik pays wifi bill every month or cooks food weekly.,1,0,1
+674,Rohan is a good singer.,Rohan is a good singer or he is a bad actor.,1,0,1
+675,John is taller than Bill.,John is taller than Bill or John is shorter than Bill.,1,0,1
+676,I am doing laundry tonight.,I am doing laundry tonight or I am doing the dishes tomorrow.,1,2,1
+677,I am going out to eat tonight.,I am going out to eat tonight or I am cooking dinner tomorrow.,1,2,1
+678,I am taking a nap now.,I am taking a nap now or I am going to bed early tonight.,1,2,1
+679,I am watching a movie now.,I am watching a movie now or I am doing homework later.,1,2,1
+680,I am playing video games now.,I am playing video games now or I am doing laundry later.,1,2,1
+681,I am at the park now.,I am at the park now or I am at home.,1,0,1
+682,I am going to the movies.,I am going to the movies or I am going out to eat.,1,2,1
+683,I am failing my classes.,I am failing my classes or I am not studying.,1,0,1
+684,I am doing my homework.,I am doing my homework or I am studying for my test.,1,2,1
+685,I went out with friends.,I went out with friends or I stayed home.,1,0,1
+686,I am eating breakfast.,I am eating breakfast or I am hungry.,1,1,0
+687,I am at school.,I am at school or I am not at home.,1,0,1
+688,I am taking a shower.,I am taking a shower or I am getting ready for bed.,1,0,1
+689,I am going to work.,I am going to work or I am going to the store.,1,0,1
+690,I am doing laundry.,I am doing laundry or I need to do laundry.,1,1,0
+691,I am going grocery shopping.,I am going grocery shopping or I need to buy food.,1,0,1
+692,I am mowing the lawn.,I am mowing the lawn or I need to do yard work.,1,2,1
+693,My ipad is not working.,My ipad is not working or I am on a phone call.,1,2,1
+694,Jake has eyesight problems.,Jake has eyesight problems or has hearing problem.,1,0,1
+695,Aron and Jay are went out for shopping,It is not known whether Baron went for shopping.,1,1,0
+696,C is driving the vehicle.,It is known Aron is not driving the vehicle.,1,0,1
+697,Emily is cooking food for her three children. John is eating food.,It not known if John is one of Emily's children.,1,0,1
+698,Aron is parking the car in the garage.,It is not known if Baron is inside the house.,1,0,1
+699,X completed the assignment.,It is known that Y completed the assignment.,2,2,0
+700,"Someone who has a Netflix account, has shared their acces with me.",Emily has a Netflix and she shared her acces with me.,1,1,0
+701,"Some families have dogs, which are Golden Retrievers.",John's famlily has a dog which is a Golden Retriever.,1,1,0
+702,"Some people have watched the movie, and they have given good reviews.","Koushik has seen the movie, and he has given a good review.",1,1,0
+703,There is always one director who says Marvel Franchise is overrated.,The director Philip says that Marvel Franchise is overrated.,1,1,0
+704,"Someone who has a pickup truck, needs to refill gas often.","Joe has a pickup truck, and he refills gas often.",1,1,0
+705,All guns that are a long range rifles will use 75mm bullets.. KAR-98 is a rifle type gun,The KAR-98 rifle uses 75mm bullets.,1,1,0
+706,All felines under 100 pounds can be domesticated.. Cats are felines.,Cats are felines under 100 pounds and are domesticated.,1,1,0
+707,All Apple handsets are always deisgned in Palo Alto California.. Apple handsets do not have an earphone jack.. iPhone 14 is an Apple handset.,The iPhone 14 handset is designed in Palo Alto California and does not have a earphone jack.,1,1,0
+708,Jason and Blake are names of my dogs.. Most dogs have four legs.,It is not known if Jason has four legs.,1,0,1
+709,Danny is driving a vehicle.. Aaron is in a vehicle.,It is not known if Danny and Aaron are in the same vehicle.,1,0,1
+710,Dan is cooking food for two persons.. Carter and Blake are having lunch.,It is not known if Dan is cooking for Blake.,1,0,1
+711,Bhaskar is composing music with a lot of instruments.. Bhaskar has used a piano and guitar for making some sections of music.,Bhaskar is using electric guitar for composing his music.,0,2,1
+712,There is atleast one student who submitted the assignment before the deadline.. Hawking has started his assignment just an hour before deadline.. Cane submitted his assignment.,Cane submitted his assignment before Hawking.,2,1,1
+713,"Jake, David and Michael went for a birthday party.. Jane came with James to the party.. All undergrad students were invited for the party.",About any person it is not known whether they are ungergrad students or not.,1,0,1
+714,Karan is leading the team.. Drake is writing the report for the team.. Gagan updated the report after proof reading it.,Apart from Gagan and Drake we do not know who else wrote the report.,1,0,1
+715,Debra is cooking food for her family in the kitchen.. Jake is Debra's husband.. Only Debra's kids are at home.,Apart from her kids we do not know who else Debra is cooking food for.,1,0,1
+716,Bane is giving gifts to his friends.. Bane is giving gifts to his roommates,We do not know about any other roommate to whom Bane is giving the gift.,1,0,1
+717,X submitted the assignment.. Y completed the assignment.,We know that there are at least two people who submitted the assignment.,0,2,1
+718,All used socks smell. Used socks are normally in the laundry basket. Dan kept a pair of sock on table,Dan's socks don't smell,1,0,1
+719,Jack usually goes to university by bike. Bikes can be used when roads are not flooded. Jack went to university by foot,Roads are flooded,1,0,1
+720,Football cannot be played in snow. It snowed last night,Football is played today,0,2,1
+721,Phones usually work with chargers. Charger usually connect to wall socket. There are no wall sockets,Phones does not work,1,1,0
+722,All birds fly. Flying birds are usually light. Mark weighs 50kgs,Mark is a bird,0,1,1
+723,Poly and pam are birds. All birds fly. Poly is an emu. emu likes fish,Pam is a bird,1,1,0
+724,Honda and Kia are cars. All cars run on petrol. Honda runs on biogas. Honda is an expensive car,Kia is a car,1,1,0
+725,Sam and Dan are software developers. All software developers are rich. Dan is poor. Dan likes latte,Sam is rich,1,1,0
+726,Sam and Pam are innocent. All people are innocent until proven guilty. Sam likes going to the library. Sam was convicted of robbery,Pam is innocent,1,1,0
+727,All new socks smell nice. new socks are normally in a packet. Dan kept a pair of sock on table. Dan really likes red socks,Dan's socks are old,1,1,0
+728,"if it is a phone, it has a speaker. it is a phone",it has a speaker,1,1,0
+729,"if it is a human, it has feelings. it is not a human",it does not have feelings,1,1,0
+730,"if it is a watch, it has a strap. it is a watch",it has a strap,1,1,0
+731,"if it is a lake, it has a water. it is a lake",it has a water,1,1,0
+732,"if it is a camera, it has a memory card. it is a camera",it has a memory card,1,1,0
+733,"Ronaldo is a footballer, he is very fit. Ronaldo is not fit",Ronaldo is not a footballer,1,1,0
+734,"Mark can write, he has good handwriting. Mark's handwriting is not good",Mark cannot write,1,1,0
+735,"it is sunny, sam can play basketball. sam cannot play basketball",it is not sunny,1,1,0
+736,"if it is windy, then the turbine can generate energy. the turbine cannot generate energy",it is not windy,1,1,0
+737,"Sam is unemployed, if he is home. he is not home",Sam is not umeployed,1,1,0
+738,A chair have four legs,All chairs hae four legs,1,0,1
+739,Humans need oxygen to survive,All humans need oxygen to survive,1,1,0
+740,A plant is green,All plants are green,1,0,1
+741,A plant is green,All cplants are green,1,0,1
+742,Earth a planet in solar system orbits the sun,All planets in solar system orbits the sun,1,1,0
+743,"If it is raining, the F1 race is stopped.. It is raining",Therefore the F1 race is stopped,1,1,0
+744,"If sam is drinking soup, they have a fever.. Sam is drinking soup.",Sam has a fever,1,1,0
+745,"If a dog is scared, then they are shaking. Dog is scared",Therefore they are scared,1,1,0
+746,"If a person is angry, then they are yelling. Person is angry",Therefore they are yelling,1,1,0
+747,"If a person is homeless, they have mental illness. A person is homeless",The have mental illness,1,1,0
+748,Frank is quick.. Quick players are normally at striker positions in a soccer field. Frank is not at the striker position in the soccer field,All quick players other than Frank are at striker positions in a soccer field.,1,1,0
+749,A is a fast programmer.. Fast programmers are normally good at logical reasoning.. A is not good at logical reasoning.,All fast programmers other than A are good at logical reasoning.,1,1,0
+750,Adrian is a basketball player.. Basketball players are normally tall.. Adrian is not tall.,All basketball players including Adrian are tall.,0,1,1
+751,Airplane A is relatively slow.. Relatively slow planes are normally flown by commercials pilots.. A is not flown by a commercial pilot.,All slow airplanes including A are flown by commercial pilots.,0,1,1
+752,Student A is hardworking.. Hardworking students normally deilver good research throughput.. A is not delivering good research throughput.,All hardworking students other than B deliver good research throughput.,2,1,1
+753,I will eat chips and salsa or pizza.. I will not eat chips and salsa.,"Therefore, I will eat pizza.",1,1,0
+754,The aircraft crashed either due to a faulty engine or bad piloting.. The aircraft did not crash due to bad piloting.,"Therefore, the aircraft crashed due to a faulty engine.",1,1,0
+755,This is going to be either a short speech or long speech.. It is not a long speech.,"Therefore, it is a long speech.",0,0,0
+756,This is either great news or just too good to be true.. It is not too good to be true.,"Therefore, it is bad news",0,2,1
+757,Person A is either a wrestler or a bodybuilder.. Person A is not a wrestler.,"Therefore, person A is a sprinter.",2,2,0
+758,If one is a king then his ways can be violent.. A was a king.,"Therefore, A's ways can be violent.",1,1,0
+759,"If the microwave beeps, then the food is ready.. The microwaves beeps.","Therefore, the food is ready.",1,1,0
+760,"If the trigger is pressed, then the round is fired.. The trigger is pressed.","Therefore, the round does not fire.",0,0,0
+761,"If it rains today, then the humidity will increase.. It rained today.","Therefore, the humidity reduces",0,0,0
+762,"If the temperature rises above 105 F, then a heat warning will be issued.. The temperature crossed 105 F.",The shops closed down.,2,2,0
+763,All dogs are likable.. Sammy is a dog.,Therefore Sammy is a likable.,1,1,0
+764,All sailors are skilled sea navigators.. John is a sailor.,"Therefore, John can navigate the seas.",1,1,0
+765,All digital watches can show the date.. The Casio watch is a digital watch.,"Therefore, the Casio watch cannot show the date.",0,0,0
+766,All tennis players have strong forearms. John does not have strong forearms.,"Therefore, John is a tennis player.",0,1,1
+767,All Formula-1 cars are fast cars.. Opel is not a Formula-1 car.,"Therefore, Opel cannot be driven.",2,0,1
+768,"If it rains then the road will be wet.. If the road will be wet, there will be a traffic congestion.","Therefore, if it rains, then there will be a traffic congestion.",1,1,0
+769,"If you work hard, you will get a job you like.. If you get a job you like, you will be happy.","Therefore, if you work hard, you will be happy.",1,1,0
+770,"If it is snowing, the train will arrive late.. If the train arrives late, John will not be on time to work.","Therefore, if it is snowing, john will be early to work.",0,0,0
+771,"If you have a sweet tooth, you eat ice cream.. If you eat ice cream, risks of health complications are higher.","If you have a sweet tooth, risk of health complications are lesser.",0,0,0
+772,"If you run long distances, you have a strong metabolism.. If you have a strong metabolism, you will live longer.","If you run long distances, you will feel thirsty.",2,2,0
+773,The boy and his mother are coughing.. People coughing are normally sick.. The boy is not not sick.,The mother is sick.,1,1,0
+774,A sparrow and eagle are flying.. Flying Birds normally travel very fast.. The sparrow is is not traveling fast.,The eagle is travelling very fast,1,1,0
+775,Cars A and B are noisy.. Noisy cars usually have mechanical problems.. Car A does not have mechanical problems.,Car A is noisy,0,1,1
+776,Dogs Sammy and Timmy are barking.. Barking dogs frequenty bite people.. Sammy does not bite people at all,Sammy is barking,0,1,1
+777,Boxer A and B are fighting.. Fighting boxers sweat profusely.. Boxer B is not sweating.,Boxer C is sweating,2,2,0
+778,Sharks and goldfish are fish.. Fish are normally fast swimmers.. The Goldfish is possibly an exception to this rule.,Sharks are fast swimmers.,1,1,0
+779,Kevin and Nick are hollywood actors.. Hollywood actors are usually good dancers.. Nick is possibly an exception to this rule.,Kevin is a hollywood actor.,1,1,0
+780,Jackie and Bruce are martial artists.. Martial artists are usually strong.. Bruce is possibly an exception to this rule.,Bruce is strong.,0,1,1
+781,A and B are tired.. Tired people usually sleep more.. B is possibly an exception to this rule.,B sleeps more.,0,1,1
+782,Mark and Neil are astronauts. Astronauts usually come from a military background. Neil is possibly an exception to this rule.,Paul has come form a military background.,2,1,1
+783,The moon orbits around Earth. The moon is a natural satellite of Earth. The moon is not the only natural satellite of Earth,The moon is the only natural satellite of Earth.,0,0,0
+784,Diamond is the hardest known mineral. Diamonds are used in making jewellery. Some diamonds are used for industrial purposes,Diamonds are never used for jewellery.,0,0,0
+785,Humans need food to survive. Food provides the nutrients and energy that the body needs to function. Humans can survive without food for a period of time,Humans need food to function.,1,1,0
+786,Jogging is a form of exercise. Exercise is beneficial to health. Jogging is a form of cardio,Jogging is not beneficial to health.,0,0,0
+787,Glass is a type of material. Glass is brittle. Not all types of materials are brittle,All types of materials are brittle.,0,1,1
+788,Water is necessary for life. Water makes up a large percentage of the human body. Water is necessary for plants,Water is necessary for the human body.,1,2,1
+789,The Earth is round. The Earth is a planet. The Earth is the only round planet,The Earth is the only planet.,0,1,1
+790,Dogs are a type of animal. Dogs are mammals. Not all types of animals are mammals,All types of animals are mammals.,0,1,1
+791,Apples are a type of fruit. Apples are a source of Vitamin C. Not all types of fruit are a source of Vitamin C,All types of fruit are a source of Vitamin C.,0,1,1
+792,The sun is a star. The sun is the closest star to Earth. The sun is the only star that Earth revolves around,The sun is the closest star to Earth.,1,0,1
+793,Spiders are a type of arthropod. Spiders have eight legs. Not all types of arthropods have eight legs,All types of arthropods have eight legs.,0,1,1
+794,Fish live in water. Sharks are a type of fish. Sharks live in water,Sharks are not a type of fish.,0,0,0
+795,Santa Claus is a fictional character. Santa Claus is a jolly old man. Not all fictional characters are jolly old men,All fictional characters are jolly old men.,0,1,1
+796,Diamonds are a type of mineral. Diamonds are made of carbon. Not all types of minerals are made of carbon,All types of minerals are made of carbon.,0,1,1
+797,Jupyter notebooks are a type of computer software. Jupyter notebooks are open-source. Not all types of computer software are open-source,All types of computer software are open-source.,0,1,1
+798,The square root of 64 is 8. The square root of 100 is 10. The square root of 81 is 9,The square root of 64 is 8.,1,2,1
+799,Chairs are a type of furniture. Chairs are made of wood. Not all types of furniture are made of wood,All types of furniture are made of wood.,0,1,1
+800,Dogs are a type of mammal. Dogs are vertebrates. Not all types of mammals are vertebrates,All types of mammals are vertebrates.,0,1,1
+801,Pencils are a type of stationary. Pencils are made of graphite. Not all types of stationary are made of graphite,All types of stationary are made of graphite.,0,1,1
+802,The sky is blue. The sky is a type of atmosphere. Not all types of atmosphere are blue,All types of atmosphere are blue.,0,1,1
+803,Rocks are a type of mineral. Rocks are made of minerals. Not all types of mineral are made of minerals,All types of mineral are made of minerals.,0,1,1
+804,The Earth is a planet. The Earth is round. Not all planets are round,All planets are round.,0,0,0
+805,Trees are a type of plant. Trees are living organisms. Not all types of plants are living organisms,All types of plants are living organisms.,0,1,1
+806,Clouds are a type of weather. Clouds are made of water vapor. Not all types of weather are made of water vapor,All types of weather are made of water vapor.,0,1,1
+807,The United States is a country. The United States has fifty states. Not all countries have fifty states,All countries have fifty states.,0,1,1
+808,Sugar is a type of molecule. Sugar is made of atoms. Not all types of molecules are made of atoms,All types of molecules are made of atoms.,0,1,1
+809,Oxygen is a type of element. Oxygen is found in air. Not all types of elements are found in air,All types of elements are found in air.,0,1,1
+810,The sun is a star. The sun is the closest star to Earth. The sun is the brightest object in the sky,The sun is the closest star to Earth.,1,1,0
+811,Atoms are the smallest particle of an element. Atoms are composed of protons and neutrons. Atoms are the building blocks of matter,Atoms are the smallest particle of an element.,1,1,0
+812,Earth is the third planet from the sun. Earth is the fifth largest planet in the solar system. Earth has one natural satellite,Earth is the fifth largest planet in the solar system.,0,1,1
+813,The Earth rotates around the sun. The Earth revolves around the sun. The Earth takes 365. 24 days to complete one orbit around the sun,The Earth revolves around the sun.,1,1,0
+814,A right triangle has one 90 degree angle. A right triangle has two acute angles. A right triangle has two obtuse angles,A right triangle has one 90 degree angle.,1,2,1
+815,A square has four 90 degree angles. A square has four equal sides. A square has four right angles,A square has four right angles.,1,1,0
+816,Glass is made from sand. Sand is a natural resource. Glass is used to make windows,Glass is used to make windows.,1,1,0
+817,Bicycles have two wheels. Bicycles are a mode of transportation. Bicycles are used for recreation,Bicycles are used for recreation.,1,1,0
+818,"Apples are fruit. Fruit grows on trees. Apples are red, green, or yellow","Apples are red, green, or yellow.",1,1,0
+819,Cats are animals. Cats are domesticated. Cats are pets,Cats are pets.,1,1,0
+820,The moon orbits around Earth. The moon is a celestial body. The moon is visible at night,The moon is visible at night.,1,1,0
+821,Gold is a metal. Gold is valuable. Gold is used in jewelry,Gold is used in jewelry.,1,1,0
+822,Clouds are made of water vapor. Clouds are in the sky. Clouds give rain,Clouds give rain.,1,1,0
+823,Fish live in water. Fish breathe with gills. Fish are cold-blooded,Fish breathe with gills.,1,1,0
+824,Birds have wings. Birds can fly. Birds are warm-blooded,Birds can fly.,1,1,0
+825,Trees are plants. Trees have leaves. Trees are living organisms,Trees are living organisms.,1,1,0
+826,Volcanoes are mountains. Volcanoes are made of lava and ash. Volcanoes can erupt,Volcanoes can erupt.,1,1,0
+827,Cheese is made from milk. Cheese is a dairy product. Cheese is high in calcium,Cheese is high in calcium.,1,1,0
+828,Penguins are birds. Penguins live in the Antarctic. Penguins have feathers,Penguins have feathers.,1,1,0
+829,Chairs are furniture. Chairs have four legs. Chairs are used for sitting,Chairs are used for sitting.,1,1,0
+830,Pencils are made of wood. Pencils are used for writing. Pencils have lead,Pencils have lead.,1,1,0
+831,Ice is water. Ice is cold. Ice melts in warm weather,Ice melts in warm weather.,1,0,1
+832,Salt is a mineral. Salt is white. Salt is used to flavor food,Salt is used to flavor food.,1,1,0
+833,Bacteria are single-celled organisms. Bacteria are microscopic. Bacteria can cause diseases,Bacteria can cause diseases.,1,1,0
+834,Air is a gas. Air is invisible. Air is necessary for life,Air is necessary for life.,1,1,0
+835,The liver is an organ. The liver is in the abdominal cavity. The liver filters toxins from the blood,The liver filters toxins from the blood.,1,1,0
+836,Mike and Luke are going to a movie.  People take a bus to get to the movie.  Mike did not take the bus,Mike is going to the movie.,0,1,1
+837,Dark clouds in during the day indicate incoming rain.  People generally take umbrella when it is raining.  Shawn is carrying an umbrella,It will rain in Shawn's area.,1,1,0
+838,Busses stop at a designated area to pick the passengers. Bus stops generally have a bus stop sign.  Mike was waiting by the side of the road,Mike is waiting for the bus.,0,1,1
+839,A and B are vegetarians.  Vegetarians do not eat meat products.  A prepared a chicken dish for the guests,A is a non-vegetarian.,0,0,0
+840,Dogs are not allowed in the park.  Dogs are not allowed on the grass.  Fido is on the grass,Fido is not a dog.,1,0,1
+841,"Every day, John takes the bus to work.  The bus fare is $2.  John has $2 with him",John will take the bus to work today.,1,1,0
+842,All of the students in Ms.  Smith's third period class are failing. Sarah is in Ms.  Smith's third period class,Sarah is not failing.,0,0,0
+843,Some dogs are obedient.  All obedient dogs are trained.  Fido is not trained,Fido is obedient.,0,1,1
+844,Some birds can fly.  All flying birds have wings.  Tweety does not have wings,Tweety can fly.,0,1,1
+845,All dogs like to chase cats.  Some cats are fast.  Smokey is a cat,Smokey is not fast.,0,0,0
+846,Every student that studies gets good grades.  Bill does not study,Bill will not get good grades.,1,1,0
+847,Some animals are cute.  All cute animals are popular.  Gizmo is a popular animal,Gizmo is cute.,1,1,0
+848,Some musicians are popular.  All popular musicians are good.  Beyonce is a good musician,Beyonce is not popular.,0,0,0
+849,Some dogs are loyal.  All loyal dogs are trainable.  Fido is not trainable,Fido is not loyal,1,1,0
+850,Some countries are developed.  All developed countries have a strong economy,Africa does not have a strong economy.,1,0,1
+851,Some students are good at math.  All students who are good at math study hard,Bill is good at math.,0,1,1
+852,"All the members of the jury are required to be present during deliberations.  If a member is not present, they cannot participate in deliberations.  John is not present",John can participate in deliberations.,0,1,1
+853,Only employees of the company are allowed in the building.  John is not an employee of the company,John is allowed in the building.,0,0,0
+854,"If a person has a cold, they will have a fever.  Shawn has a cold",Shawn will have a fever.,1,1,0
+855,"If a person has the flu, they will have a fever.  Shawn does not have a fever",Shawn does not have the flu.,1,1,0
+856,Every employee of the company must wear a name tag.  John is not wearing a name tag,John is not an employee of the company.,1,1,0
+857,Some dogs are not friendly.  All animals are either friendly or not friendly,Some animals are not friendly.,1,1,0
+858,Some animals are carnivores.  All carnivores eat meat.  Felines are not carnivores,Felines do not eat meat,1,0,1
+859,All vertebrates have a backbone,Sharks have a backbone.,0,1,1
+860,Some dogs are friendly.  All friendly dogs like to play fetch,Max is not a friendly dog.,0,0,0
+861,Some fruit is healthy.  All apples are fruit,Apples are healthy.,1,1,0
+862,Some animals are dangerous.  All lions are animals,Lions are dangerous.,1,1,0
+863,Some apples are green.  All green apples are sour,Some apples are sour.,1,1,0
+864,Some penguins are black and white.  All penguins who are black and white live in Antarctica,Some penguins live in Antarctica.,1,1,0
+865,Some dogs are cute.  All dogs who are cute like to play fetch,Some dogs like to play fetch.,1,1,0
+866,Some dogs are aggressive.  All aggressive dogs have a history of abuse,Some dogs have a history of abuse.,1,1,0
+867,Some cats are lazy.  All lazy cats sleep a lot,Some cats sleep a lot.,1,1,0
+868,Some planets are in our solar system.  All planets in our solar system have moons,Some planets are not in our solar system.,1,0,1
+869,Some planets are in our solar system.  All planets in our solar system have moons,Some planets in our solar system does not have moons.,0,0,0
+870,Lisa needs to buy a new dress for her friend's wedding. The wedding is in two weeks. Lisa has not bought the dress yet,Lisa will not buy the dress in time for the wedding.,1,1,0
+871,Tom is taller than Jerry.  Jerry is shorter than John. Tom is taller than John,Jerry is shorter than Tom.,1,1,0
+872,Jogging is a good way to stay in shape. John jogs every morning. John is in good shape,John jogs every morning.,1,1,0
+873,All swans are white. John saw a swan. The swan was white,John saw a white swan.,1,1,0
+874,Bicycles have two wheels. All vehicles have at least two wheels. Bicycles are vehicles,Some vehicles have less than two wheels.,0,0,0
+875,Spiders have eight legs. All insects have eight legs. Spiders are insects,All insects have eight legs.,1,1,0
+876,All animals are either a vertebrate or an invertebrate. A vertebrate has a backbone. Dogs are animals,Dogs do not have a backbone.,0,0,0
+877,Dogs have wet noses because they help them cool off. Riley's nose is wet,Riley is a dog.,1,1,0
+878,Most birds can fly. Penguins are birds. Penguins cannot fly,All birds can fly.,0,0,0
+879,Lisa is taller than her sister. Lisa is taller than Anna. Anna is Lisa's sister,Anna is taller than her sister.,0,1,1
+880,All odd numbers are not divisible by 2. 3 is an odd number. 3 is not divisible by 2,3 is not an odd number.,0,1,1
+881,The conference room is on the second floor. The conference room is up the stairs. The conference room is not down the stairs,The conference room is not on the first floor.,1,2,1
+882,Every triangle has three sides. Isosceles triangles have two sides of the same length. All isosceles triangles have three sides of different lengths,Every triangle has three sides of different lengths.,0,1,1
+883,All plants need sunlight to grow. Mushrooms are plants. Mushrooms do not need sunlight to grow,Mushrooms are not plants.,0,1,1
+884,Cats generally like to drink milk. Fiona is a cat,Fiona does not like to drink milk.,0,0,0
+885,All swans are white. The swan in the lake is white,The swan in the lake is not white.,0,0,0
+886,"Joe asserts that the moon is made of cheese. Sue asserts that the moon is not made of cheese. When Joe asserts something, he is normally right. When Sue asserts something, she is normally right. Sue's evidence is more reliable than Joe's",The moon is not made of cheese.,1,1,0
+887,"Tim believes that the sun revolves around the earth. Bob believes that the earth revolves around the sun. When Tim believes something, he is normally right. When Bob believes something, he is normally right. Bob's evidence is more reliable than Tim's",The earth revolves around the sun.,1,1,0
+888,"Rachel believes that abortion is morally wrong. John believes that abortion is morally acceptable. When Rachel believes something, she is normally right. When John believes something, he is normally right. John's evidence is more reliable than Rachel's",Abortion is morally acceptable.,1,1,0
+889,"Sam believes that there is only one God. Pat believes that there are many Gods. When Sam believes something, he is normally right. When Pat believes something, she is normally right. Pat's evidence is more reliable than Sam's",There are many Gods.,1,0,1
+890,"Jen believes that the earth is flat. Mark believes that the earth is a sphere. When Jen believes something, she is normally right. When Mark believes something, he is normally right. Mark's evidence is more reliable than Jen's",The earth is a sphere.,1,1,0
+891,"George believes that the universe was created by a big bang. Susan believes that the universe was created by God. When George believes something, he is normally right. When Susan believes something, she is normally right. Susan's evidence is more reliable than George's",The universe was created by God.,1,1,0
+892,"Todd believes that the earth is the center of the universe. Lisa believes that the sun is the center of the universe. When Todd believes something, he is normally right. When Lisa believes something, she is normally right. Lisa's evidence is more reliable than Todd's",The sun is the center of the universe.,1,1,0
+893,Tim believes that abortion is morally wrong. Sue believes that abortion is morally permissible. Tim's has proof that abortion is morally wrong,Abortion is morally wrong.,1,0,1
+894,Ann believes that global warming is real. Brian believes that global warming is not real. Ann's has proof that global warming is real,Global warming is real.,1,1,0
+895,Jill believes that there is intelligent life on other planets. John believes that there is not intelligent life on other planets. Jill's has proof that there is intelligent life on other planets,There is intelligent life on other planets.,1,1,0
+896,Lisa believes that animals should not be used for experimentation. Mike believes that animals should be used for experimentation. Lisa's has proof that animals should not be used for experimentation,Animals should not be used for experimentation.,1,1,0
+897,Karen believes that extraterrestrial life exists. Jill believes that extraterrestrial life does not exist. Karen's has proof that extraterrestrial life exists,Extraterrestrial life exists.,1,0,1
+898,Matt believes that the universe is infinite. John believes that the universe is finite. Matt's has proof that the universe is infinite,The universe is infinite.,1,1,0
+899,Rachel believes that there is a God. Tom believes that there is no God. Rachel's has proof that there is a God,There is a God.,1,0,1
+900,Sarah believes that global warming is a hoax. Tom believes that global warming is real. Sarah's evidence is more reliable than Tom's,Global warming is a hoax.,0,1,1
+901,George believes that the moon landing was faked. Joe believes that the moon landing was real. George's evidence is more convincing than Joe's,The moon landing was faked.,1,1,0
+902,Sarah believes that ghosts are real. Tom believes that ghosts are not real. Sarah's evidence is more convincing than Tom's,Ghosts are real.,1,1,0
+903,Harry believes that the universe was created by a god. Sally believes that the universe was not created by a god. Harry's evidence is more convincing than Sally's,The universe was created by a god.,1,0,1
+904,Joey believes that the earth is billions of years old. Monica believes that the earth is only a few thousand years old. Joey's evidence is more convincing than Monica's,The earth is billions of years old.,1,0,1
+905,Ross believes that dinosaurs roamed the earth millions of years ago. Monica believes that dinosaurs never roamed the earth. Ross's evidence is more convincing than Monica's,Dinosaurs roamed the earth millions of years ago.,1,0,1
+906,Phoebe believes that time travel is possible. Joey believes that time travel is not possible. Phoebe's evidence is more convincing than Joey's,Time travel is not possible.,0,1,1
+907,Phoebe believes that aliens have visited earth. Monica believes that aliens have not visited earth. Phoebe's evidence is more convincing than Monica's,Aliens have not visited earth.,0,1,1
+908,Chandler believes that the universe is expanding. Rachel believes that the universe is not expanding. Chandler's evidence is more convincing than Rachel's,The universe is not expanding.,0,1,1
+909,"Timmy believes that there is a monster under his bed. Johnny believes that there is no such thing as monsters. When Timmy believes something, he is generally right. When Johnny believes something, he is generally right. Johnny's evidence is more reliable than Timmy's",There is no such thing as monsters.,1,1,0
+910,"Harry believes that there is a secret society of shape-shifting aliens that control the world. Sally believes that there is no such thing as a secret society of shape-shifting aliens that control the world. When Harry believes something, he is generally right. When Sally believes something, she is generally right. Sally's evidence is more reliable than Harry's",There is no such thing as a secret society of shape-shifting aliens that control the world.,1,1,0
+911,"Rachel believes that ghosts are real. Beth believes that ghosts are not real. When Rachel believes something, she is generally right. When Beth believes something, she is generally right. Beth's evidence is more reliable than Rachel's",Ghosts are real.,0,0,0
+912,"Jaxon believes that the moon is made out of green cheese. Olivia believes that the moon is not made out of green cheese. When Jaxon believes something, he is generally right. When Olivia believes something, she is generally right. Olivia's evidence is more reliable than Jaxon's",The moon is made out of green cheese.,0,1,1
+913,"Harry believes that there is a secret society of shape-shifting aliens that control the world. Sally believes that there is no such thing as a secret society of shape-shifting aliens that control the world. When Harry believes something, he is generally right. When Sally believes something, she is generally right. Sally's evidence is more reliable than Harry's",There is no such thing as a secret society of shape-shifting aliens that control the world.,1,1,0
+914,"Rachel believes that ghosts are real. Beth believes that ghosts are not real. When Rachel believes something, she is generally right. When Beth believes something, she is generally right. Beth's evidence is more reliable than Rachel's",Ghosts are real.,0,0,0
+915,"Nick believes that unicorns are real. Sarah believes that unicorns are not real. When Nick believes something, he is generally right. When Sarah believes something, she is generally right. Sarah's evidence is more reliable than Nick's",Unicorns are real.,0,0,0
+916,"Homer believes that the sun is a star. Marge believes that the sun is a star. When Homer believes something, he is generally right. When Marge believes something, she is generally right. Homer's evidence is more reliable than Marge's",The sun is a star.,1,0,1
+917,"Lisa believes that there are other intelligent life forms in the universe. Maggie believes that there is no other intelligent life forms in the universe. When Lisa believes something, she is generally right. When Maggie believes something, she is generally right. Lisa's evidence is more reliable than Maggie's",There are other intelligent life forms in the universe.,1,0,1
+918,"Bart believes that school is a waste of time. Lisa believes that school is important. When Bart believes something, he is generally right. When Lisa believes something, she is generally right. Bart's evidence is more reliable than Lisa's",School is a waste of time.,0,1,1
+919,"Marge believes that violence is never the answer. Homer believes that violence is the answer. When Marge believes something, she is generally right. When Homer believes something, he is generally right. Marge's evidence is more reliable than Homer's",Violence is never the answer.,1,1,0
+920,"Bart believes that lying is always wrong. Lisa believes that there are some circumstances where lying is okay. When Bart believes something, he is generally right. When Lisa believes something, she is generally right. Bart's evidence is more reliable than Lisa's",Lying is not always wrong.,0,0,0
+921,"Marge believes that global warming is real. Homer believes that global warming is not real. When Marge believes something, she is generally right. When Homer believes something, he is generally right. Marge's evidence is more reliable than Homer's",Global warming is not real.,0,1,1
+922,"Lisa believes that recycling is important. Maggie believes that recycling is not important. When Lisa believes something, she is generally right. When Maggie believes something, she is generally right. Lisa's evidence is more reliable than Maggie's",Recycling is not important.,0,1,1
+923,"Bart believes that stealing is always wrong. Lisa believes that there are some circumstances where stealing is okay. When Bart believes something, he is generally right. When Lisa believes something, she is generally right. Bart's evidence is more reliable than Lisa's",Stealing is not always wrong.,0,0,0
+924,"Marge believes that nuclear power is dangerous. Homer believes that nuclear power is safe. When Marge believes something, she is generally right. When Homer believes something, he is generally right. Marge's evidence is more reliable than Homer's",Nuclear power is not dangerous.,0,0,0
+925,"Lisa believes that homework is important. Maggie believes that homework is not important. When Lisa believes something, she is generally right. When Maggie believes something, she is generally right. Lisa's evidence is more reliable than Maggie's",Homework is not important.,0,1,1
+926,"Bart believes that mischief is always fun. Lisa believes that there are some circumstances where mischief is not fun. When Bart believes something, he is generally right. When Lisa believes something, she is generally right. Bart's evidence is more reliable than Lisa's",Mischief is not always fun.,0,1,1
+927,"Marge believes that alcohol is dangerous. Homer believes that alcohol is not dangerous. When Marge believes something, she is generally right. When Homer believes something, he is generally right. Marge's evidence is more reliable than Homer's",Alcohol is not dangerous.,0,0,0
+928,"Bart believes that school is always boring. Lisa believes that there are some circumstances where school is not boring. When Bart believes something, he is generally right. When Lisa believes something, she is generally right. Bart's evidence is more reliable than Lisa's",School is not always boring.,0,1,1
+929,"Marge believes that smoking is dangerous. Homer believes that smoking is not dangerous. When Marge believes something, she is generally right. When Homer believes something, he is generally right. Marge's evidence is more reliable than Homer's",Smoking is not dangerous.,0,1,1
+930,"Lisa believes that eating healthy is important. Maggie believes that eating healthy is not important. When Lisa believes something, she is generally right. When Maggie believes something, she is generally right. Lisa's evidence is more reliable than Maggie's",Eating healthy is not important.,0,1,1
+931,"Bart believes that being lazy is always fun. Lisa believes that there are some circumstances where being lazy is not fun. When Bart believes something, he is generally right. When Lisa believes something, she is generally right. Bart's evidence is more reliable than Lisa's",Being lazy is not always fun.,0,1,1
+932,"Patty believes that Springfield is the best city in the world. Selma believes that Springfield is the worst city in the world. When Patty believes something, she is generally right. When Selma believes something, she is generally right. Patty's evidence is more reliable than Selma's",Springfield is not the best city in the world.,0,0,0
+933,If I am happy then I am smiling;and if I am smiling then I am not sad;but I am happy or I am sad;,therefore I am smiling or I am not happy.,1,1,0
+934,If I am at home then I am in my house;and if I am in my house then I am not outside;but I am at home or I am outside;,therefore I am in my house or I am not at home.,1,1,0
+935,If I am watching a movie then it is playing;and if it is playing then it is not paused;but I am watching a movie or it is paused;,therefore it is playing or I am not watching a movie.,1,1,0
+936,If I am at school then I am in class;and if I am in class then I am not out of school;but I am at school or I am out of school;,therefore I am in class or I am not at school.,1,1,0
+937,If I am at work then I am in the office;and if I am in the office then I am not out of work;but I am at work or I am out of work;,therefore I am in the office or I am not at work.,1,1,0
+938,If it is raining then the ground is wet;and if the ground is wet then the grass is wet;but it is raining or the grass is not wet;,therefore the ground is wet or it is not raining.,1,1,0
+939,If I am cold then I am shivering;and if I am shivering then I am not warm;but I am cold or I am warm;,therefore I am shivering or I am not cold.,1,1,0
+940,If I am awake then I am not asleep;and if I am not asleep then I am not tired;but I am awake or I am tired;,therefore I am not asleep or I am not tired.,1,1,0
+941,If I am hungry then I am craving food;and if I am craving food then I am not full;but I am hungry or I am full;,therefore I am craving food or I am not hungry.,1,1,0
+942,If I am sad then I am not happy;and if I am not happy then I am not smiling;but I am sad or I am smiling;,therefore I am not happy or I am not sad.,1,1,0
+943,If I am outside then I am not inside;and if I am not inside then I am not in my house;but I am outside or I am in my house;,therefore I am not inside or I am not outside.,1,1,0
+944,If it is playing then I am not paused;and if I am not paused then I am not watching a movie;but it is playing or I am watching a movie;,therefore I am not paused or I am not playing.,1,1,0
+945,If I am in the office then I am not out of work;and if I am not out of work then I am at work;but I am in the office or I am at work;,therefore I am not out of work or I am not in the office.,1,1,0
+946,If I am thirsty then I need to drink;and if I need to drink then I am not hydrated;but I am thirsty or I am hydrated;,therefore I need to drink or I am not thirsty.,1,1,0
+947,If I am cold then I need to put on a coat;and if I need to put on a coat then it is cold outside;but I am cold or it is not cold outside;,therefore I need to put on a coat or I am not cold.,1,1,0
+948,If I am happy then I am smiling;and if I am smiling then I am not sad;but I am happy or I am sad;,therefore I am smiling or I am not happy.,1,1,0
+949,If I am nervous then I am sweating;and if I am sweating then I am not calm;but I am nervous or I am calm;,therefore I am sweating or I am not nervous.,1,1,0
+950,If I am sick then I have a fever;and if I have a fever then I am not healthy;but I am sick or I am healthy;,therefore I have a fever or I am not sick.,1,1,0
+951,If I am failing then I am not doing well;and if I am not doing well then I am not happy;but I am failing or I am happy;,therefore I am not doing well or I am not failing.,1,1,0
+952,If I am working then I am not playing;and if I am not playing then I am not having fun;but I am working or I am having fun;,therefore I am not playing or I am not working.,1,1,0
+953,If I am studying then I am not watching TV;and if I am not watching TV then I am not wasting time;but I am studying or I am wasting time;,therefore I am not watching TV or I am not studying.,1,1,0
+954,If I am outside then I am not inside;and if I am not inside then I am not home;but I am outside or I am home;,therefore I am not inside or I am not outside.,1,1,0
+955,If I am eating then I am not fasting;and if I am not fasting then I am not observing a religious holiday;but I am eating or I am observing a religious holiday;,therefore I am not fasting or I am not eating.,1,1,0
+956,If the car is running then the engine is on;and if the engine is on then the car is not off;but the car is running or the car is off;,therefore the engine is on or the car is not running.,1,1,0
+957,If the light is on then it is not dark;and if it is not dark then it is daytime;but the light is on or it is daytime;,therefore it is not dark or the light is not on.,1,1,0
+958,If I am at school then I am not at home;and if I am not at home then I am not sleeping;but I am at school or I am sleeping;,therefore I am not at home or I am not at school.,1,1,0
+959,If I am at the library then I am not at the park;and if I am not at the park then I am not playing;but I am at the library or I am playing;,therefore I am not at the park or I am not at the library.,1,1,0
+960,If I am at the beach then I am not at the mountains;and if I am not at the mountains then I am not hiking;but I am at the beach or I am hiking;,therefore I am not at the mountains or I am not at the beach.,1,1,0
+961,If I am at the movies then I am not at the restaurant;and if I am not at the restaurant then I am not eating;but I am at the movies or I am eating;,therefore I am not at the restaurant or I am not at the movies.,1,1,0
+962,If I am at work then I am not at the beach;and if I am not at the beach then I am not relaxing;but I am at work or I am relaxing;,therefore I am not at the beach or I am not at work.,1,1,0
+963,If I am at the store then I am not at the office;and if I am not at the office then I am not working;but I am at the store or I am working;,therefore I am not at the office or I am not at the store.,1,1,0
+964,If I am at the park then I am not at the gym;and if I am not at the gym then I am not working out;but I am at the park or I am working out;,therefore I am not at the gym or I am not at the park.,1,1,0
+965,If I am talking then I am not silent;and if I am not silent then I am making noise;but I am talking or I am not making noise;,therefore I am not silent or I am not talking.,1,1,0
+966,If I am walking then I am not stationary;and if I am not stationary then I am in motion;but I am walking or I am not in motion;,therefore I am not stationary or I am not walking.,1,1,0
+967,If the room is dark then the light is off;and if the light is off then it is not bright;but the room is dark or it is not bright;,therefore the light is off or the room is not dark.,1,1,0
+968,If I am at home then I am not at school;and if I am not at school then I am not learning;but I am at home or I am learning;,therefore I am not at school or I am not at home.,1,1,0
+969,If I am at the store then I am not at the library;and if I am not at the library then I am not reading;but I am at the store or I am reading;,therefore I am not at the library or I am not at the store.,1,1,0
+970,If I am awake then I am not asleep;and if I am not asleep then I am not dreaming;but I am awake or I am dreaming;,therefore I am not asleep or I am not awake.,1,1,0
+971,If I am in the city then I am not in the country;and if I am not in the country then I am not in the mountains;but I am in the city or I am in the mountains;,therefore I am not in the country or I am not in the city.,1,1,0
+972,If I am cooking then I am not eating;and if I am not eating then I am not hungry;but I am cooking or I am hungry;,therefore I am not eating or I am not cooking.,1,1,0
+973,If I am driving then I am not walking;and if I am not walking then I am not moving;but I am driving or I am moving;,therefore I am not walking or I am not driving.,1,1,0
+974,If I am writing then I am not typing;and if I am not typing then I am not using a computer;but I am writing or I am using a computer;,therefore I am not typing or I am not writing.,1,1,0
+975,If I am a student then I am not a teacher;and if I am not a teacher then I am not teaching;but I am a student or I am teaching;,therefore I am not a teacher or I am not a student.,1,1,0
+976,If I am watching TV then I am not playing a game;and if I am not playing a game then I am not having fun;but I am watching TV or I am having fun;,therefore I am not playing a game or I am not watching TV.,1,1,0
+977,If I am a cat then I am not a dog;and if I am not a dog then I am not a pet;but I am a cat or I am a pet;,therefore I am not a dog or I am not a cat.,1,1,0
+978,If I am a bird then I am not a mammal;and if I am not a mammal then I am not an animal;but I am a bird or I am an animal;,therefore I am not a mammal or I am not a bird.,1,1,0
+979,If I am in the water then I am not on the ground;and if I am not on the ground then I am not on my feet;but I am in the water or I am on my feet;,therefore I am not on the ground or I am not in the water.,1,1,0
+980,If I am in the air then I am not on the ground;and if I am not on the ground then I am not on my feet;but I am in the air or I am on my feet;,therefore I am not on the ground or I am not in the air.,1,1,0
+981,If I am playing then I am not working;and if I am not working then I am not earning;but I am playing or I am earning;,therefore I am not working or I am not playing.,1,1,0
+982,If I am in outer space then I am not on the ground;and if I am not on the ground then I am not on my feet;but I am in outer space or I am on my feet;,therefore I am not on the ground or I am not in outer space.,1,1,0
+983,I will go to the store,"Therefore, I will go to the store or I will go to the library.",1,2,1
+984,I will clean my house,"Therefore, I will clean my house or I will go for a walk.",1,2,1
+985,I will do my homework,"Therefore, I will do my homework or I will watch TV.",1,0,1
+986,I will make dinner,"Therefore, I will make dinner or I will order pizza.",1,0,1
+987,I will pay my rent,"Therefore, I will pay my rent or I will move out.",1,2,1
+988,I will go to the movies,"Therefore, I will go to the movies or I will go to the park.",1,2,1
+989,I will take a vacation,"Therefore, I will take a vacation or I will stay home.",1,0,1
+990,I will visit my parents,"Therefore, I will visit my parents or I will visit my grandparents.",1,1,0
+991,I will get a job,"Therefore, I will get a job or I will go to school.",1,0,1
+992,I will buy a new car,"Therefore, I will buy a new car or I will buy a used car.",1,0,1
+993,I will go out with my friends,"Therefore, I will go out with my friends or I will stay home.",1,0,1
+994,I will take a break,"Therefore, I will take a break or I will keep working.",1,0,1
+995,I will finish my project,"Therefore, I will finish my project or I will give up.",1,2,1
+996,I will workout,"Therefore, I will workout or I will take a nap.",1,2,1
+997,I will eat breakfast,"Therefore, I will eat breakfast or I will make lunch.",1,0,1
+998,I will go for a run,"Therefore, I will go for a run or I will walk.",1,0,1
+999,I will do laundry,"Therefore, I will do laundry or I will go out.",1,2,1
+1000,I will watch a movie,"Therefore, I will watch a movie or I will read a book.",1,0,1
+1001,I will go to bed early,"Therefore, I will go to bed early or I will sleep in.",1,0,1
+1002,I will study for my exam,"Therefore, I will study for my exam or I will fail.",1,0,1
+1003,I will get a haircut,"Therefore, I will get a haircut or I will let my hair grow.",1,0,1
+1004,I will go to the gym,"Therefore, I will go to the gym or I will stay home.",1,0,1
+1005,I will eat out,"Therefore, I will eat out or I will cook.",1,0,1
+1006,I will buy groceries,"Therefore, I will buy groceries or I will go hungry.",1,2,1
+1007,I will finish my report,"Therefore, I will finish my report or I will get fired.",1,0,1
+1008,I will take my medicine,"Therefore, I will take my medicine or I will get sick.",1,0,1
+1009,I will quit my job,"Therefore, I will quit my job or I will get fired.",1,0,1
+1010,I will attend my classes,"Therefore, I will attend my classes or I will fail.",1,0,1
+1011,I will turn in my assignment,"Therefore, I will turn in my assignment or I will get a zero.",1,1,0
+1012,I will graduate,"Therefore, I will graduate or I will drop out.",1,2,1
+1013,I will buy a house,"Therefore, I will buy a house or I will rent an apartment.",1,0,1
+1014,I will get married,"Therefore, I will get married or I will stay single.",1,0,1
+1015,I will have a baby,"Therefore, I will have a baby or I will not have a baby.",1,1,0
+1016,I will go on a trip,"Therefore, I will go on a trip or I will stay home.",1,0,1
+1017,I will learn a new language,"Therefore, I will learn a new language or I will not learn a new language.",1,0,1
+1018,I will change my major,"Therefore, I will change my major or I will not change my major.",1,0,1
+1019,I will join a club,"Therefore, I will join a club or I will not join a club.",1,0,1
+1020,I will get a new job,"Therefore, I will get a new job or I will not get a new job.",1,0,1
+1021,I will move to a new city,"Therefore, I will move to a new city or I will not move to a new city.",1,0,1
+1022,I will go back to school,"Therefore, I will go back to school or I will not go back to school.",1,0,1
+1023,I will start my own business,"Therefore, I will start my own business or I will not start my own business.",1,0,1
+1024,I will sell my house,"Therefore, I will sell my house or I will not sell my house.",1,0,1
+1025,I will retire,"Therefore, I will retire or I will not retire.",1,0,1
+1026,I will travel the world,"Therefore, I will travel the world or I will not travel the world.",1,1,0
+1027,I will write a book,"Therefore, I will write a book or I will not write a book.",1,1,0
+1028,I will get in shape,"Therefore, I will get in shape or I will not get in shape.",1,0,1
+1029,I will quit smoking,"Therefore, I will quit smoking or I will not quit smoking.",1,0,1
+1030,I will learn to play an instrument,"Therefore, I will learn to play an instrument or I will not learn to play an instrument.",1,0,1
+1031,I will go sky diving,"Therefore, I will go sky diving or I will not go sky diving.",1,0,1
+1032,I will get a pet,"Therefore, I will get a pet or I will not get a pet.",1,0,1
+1033,"If you're a doctor, then you must have gone to medical school.  John is a doctor","Therefore, John went to engineering school.",0,2,1
+1034,"If you're a teacher, then you must be good at teaching.  Ms.  Smith is a teacher","Therefore, Ms. Smith is good at teaching.",1,1,0
+1035,"If you're a basketball player, then you must be good at playing basketball.  Kobe is a basketball player","Therefore, Kobe is bad at playing basketball.",0,0,0
+1036,"If you're a musician, then you must be good at playing an instrument.  Beethoven was a musician","Therefore, Beethoven was good at playing an instrument.",1,1,0
+1037,"If you're an artist, then you must be good at drawing.  Picasso was an artist","Therefore, Picasso was good at drawing.",1,1,0
+1038,"If you're a waiter, then you must be good at serving food.  Bill is a waiter","Therefore, Bill is good at serving food.",1,1,0
+1039,"If you're a carpenter, then you must be good at building things.  Frank is a carpenter","Therefore, Frank is good at building things.",1,1,0
+1040,"If you're a plumber, then you must be good at fixing pipes.  Joe is a plumber","Therefore, Joe is good at fixing pipes.",1,1,0
+1041,"If you're an electrician, then you must be good at wiring.  Tom is an electrician","Therefore, Tom is good at wiring.",1,1,0
+1042,"If you're a computer scientist, then you must be good at programming.  Ada is a computer scientist","Therefore, Ada is good at programming.",1,1,0
+1043,"If you're a lawyer, then you must be good at arguing.  Sue is a lawyer","Therefore, Sue is good at arguing.",1,1,0
+1044,"If you're a dancer, then you must be good at dancing.  Mikhail is a dancer","Therefore, Mikhail is good at dancing.",1,1,0
+1045,"If you're a boxer, then you must be good at punching.  Mohammed is a boxer","Therefore, Mohammed is good at punching.",1,1,0
+1046,"If you're an athlete, then you must be good at sports.  Jesse is an athlete","Therefore, Jesse is good at sports.",1,1,0
+1047,"If you're a chef, then you must be good at cooking.  Gordon is a chef","Therefore, Gordon is good at cooking.",1,1,0
+1048,"If you're a babysitter, then you must be good at taking care of kids.  Jenny is a babysitter","Therefore, Jenny is good at taking care of kids.",1,1,0
+1049,"If you're a janitor, then you must be good at cleaning.  Jerry is a janitor","Therefore, Jerry is good at cleaning.",1,1,0
+1050,"If you're a librarian, then you must be good at organizing books.  Ms.  Nguyen is a librarian","Therefore, Ms. Nguyen is good at organizing books.",1,1,0
+1051,"If you're a bus driver, then you must be good at driving.  Mr.  Singh is a bus driver","Therefore, Mr. Singh is good at driving.",1,1,0
+1052,"If you're a fisherman, then you must be good at fishing.  Bob is a fisherman","Therefore, Bob is good at fishing.",1,1,0
+1053,"If you're a writer, then you must be good at writing.  J. K.  Rowling is a writer","Therefore, J.K. Rowling is good at writing.",1,1,0
+1054,"If you're an actor, then you must be good at acting.  Meryl Streep is an actor","Therefore, Meryl Streep is good at acting.",1,1,0
+1055,"If you're a singer, then you must be good at singing.  Adele is a singer","Therefore, Adele is good at singing.",1,1,0
+1056,"If you're a musician, then you must be good at playing an instrument.  Yo-Yo Ma is a musician","Therefore, Yo-Yo Ma is good at playing an instrument.",1,1,0
+1057,"If you're a scientist, then you must be good at experiments.  Marie Curie is a scientist","Therefore, Marie Curie is good at experiments.",1,1,0
+1058,"If you're an astronaut, then you must be good at flying.  Neil Armstrong is an astronaut","Therefore, Neil Armstrong is good at flying.",1,1,0
+1059,"If you're a doctor, then you must be good at helping people.  Dr.  Jane Smith is a doctor","Therefore, Dr. Jane Smith is good at helping people.",1,1,0
+1060,"If you're a nurse, then you must be good at taking care of people.  Nurse Nancy is a nurse","Therefore, Nurse Nancy is not good at taking care of people.",0,0,0
+1061,"If you're a fireman, then you must be good at putting out fires.  Fireman Joe is a fireman","Therefore, Fireman Joe is not good at putting out fires.",0,0,0
+1062,"If you're a police officer, then you must be good at catching criminals.  Officer James is a police officer","Therefore, Officer James is not good at catching criminals.",0,0,0
+1063,"If you're a soldier, then you must be good at following orders.  Sergeant Johnson is a soldier","Therefore, Sergeant Johnson is not good at following orders.",0,0,0
+1064,"If you're a businessman, then you must be good at making money.  Mr.  Trump is a businessman","Therefore, Mr. Trump is good at making money.",1,1,0
+1065,"If you're a CEO, then you must be good at running a company.  Ms.  Parks is a CEO","Therefore, Ms. Parks is bad at running a company.",0,0,0
+1066,"If you're a waitress, then you must be good at taking orders.  Waitress Jill is a waitress","Therefore, Waitress Jill is bad at taking orders.",0,0,0
+1067,"If you're a cashier, then you must be good at counting money.  Cashier Karen is a cashier","Therefore, Cashier Karen is bad at counting money.",0,0,0
+1068,"If you're a construction worker, then you must be good at building things.  Construction worker Bob is a construction worker","Therefore, Construction worker Bob is bad at building things.",0,0,0
+1069,"If you're a mechanic, then you must be good at fixing cars.  Mechanic Tom is a mechanic","Therefore, Mechanic Tom is bad at fixing cars.",0,0,0
+1070,"If you're a farmer, then you must be good at growing crops.  Farmer John is a farmer","Therefore, Farmer John is bad at growing crops.",0,0,0
+1071,"If you're a factory worker, then you must be good at working on a production line.  Factory worker Andy is a factory worker","Therefore, Factory worker Andy is not good at working on a production line.",0,0,0
+1072,"If you're a grocery store worker, then you must be good at stocking shelves.  Grocery store worker Sarah is a grocery store worker","Therefore, Grocery store worker Sarah is not good at stocking shelves.",0,0,0
+1073,"If you're a software engineer, then you must be good at coding.  Bill Gates is a software engineer","Therefore, Bill Gates is good at coding.",1,1,0
+1074,"If you're a banker, then you must be good at finance.  Jamie Dimon is a banker","Therefore, Jamie Dimon is good at finance.",1,1,0
+1075,"If you're a scientist, then you must be good at science.  Marie Curie was a scientist","Therefore, Marie Curie was bad at science.",0,0,0
+1076,"If you're a historian, then you must be good at history.  Herodotus was a historian","Therefore, Herodotus was bad at history.",0,0,0
+1077,"If you're an electrical engineer, then you must be good at designing electrical systems.  Nikola Tesla was an electrical engineer","Therefore, Nikola Tesla was not good at designing electrical systems.",0,0,0
+1078,"If you're a mechanical engineer, then you must be good at designing mechanical systems.  James Watt was a mechanical engineer","Therefore, James Watt was good at designing mechanical systems.",1,1,0
+1079,"If you're a chemical engineer, then you must be good at designing chemical processes.  George Washington Carver was a chemical engineer","Therefore, George Washington Carver was bad at designing chemical processes.",0,0,0
+1080,"If you're a dog, then you must like to eat bones.  Rover is a dog","Therefore, Rover hates to eat bones.",0,0,0
+1081,"If it's cold outside, then I need to wear a coat.  It's cold outside","Therefore, I need not wear a coat.",0,0,0
+1082,"If I have a test tomorrow, then I need to study tonight.  I have a test tomorrow","Therefore, I do not have to study tonight.",0,0,0
+1083,"If I am sick, then I need to see a doctor.  I am sick","Therefore, I do not need to see a doctor.",0,0,0
+1084,Luke got good marks in English,"Therefore, someone got good marks in English.",1,1,0
+1085,Mia in Mrs. Nguyen's third period class failed the quiz.,Some of the students in Mrs. Nguyen's third period class failed the quiz.,1,1,0
+1086,Every person who goes to the gym regularly is in good shape.,Some people who go to the gym regularly are in good shape.,1,1,0
+1087,The moon orbits around Earth.,Some celestial bodies orbit around other celestial bodies.,1,2,1
+1088,Mammals have fur.,Some mammals have fur.,1,1,0
+1089,Numbers greater than zero is a positive number.,Some numbers greater than zero are positive numbers.,1,1,0
+1090,Every triangle has three sides.,Some triangles have three sides.,1,1,0
+1091,Every person needs oxygen to live.,Some people need oxygen to live.,1,1,0
+1092,Every animal is a living creature.,Some animals are living creatures.,1,1,0
+1093,Every mammal breathes air.,Some mammals breathe air.,1,1,0
+1094,solids has a definite shape.,Some solids have a definite shape.,1,1,0
+1095,gases expand to fill its container.,Some gases expand to fill their container.,1,1,0
+1096,liquids has a definite volume.,Some liquids have a definite volume.,1,1,0
+1097,objects in motion will eventually come to a stop.,Some objects in motion will eventually come to a stop.,1,1,0
+1098,Every action has an equal and opposite reaction.,Some actions have an equal and opposite reaction.,1,1,0
+1099,Every force has a cause.,Some forces have a cause.,1,1,0
+1100,The hydrogen element on the periodic table is a chemical element.,Some elements on the periodic table are chemical elements.,1,1,0
+1101,Every number is either a prime number or a composite number.,Some numbers are either prime numbers or composite numbers.,1,1,0
+1102,Every person is either male or female.,Some people are either male or female.,1,1,0
+1103,Dogs are either a vertebrate or an invertebrate.,Some dogs are either vertebrates or invertebrates.,1,1,0
+1104,Every plant is either a flowering plant or a nonflowering plant.,Some plants are either flowering plants or nonflowering plants.,1,1,0
+1105,"Every object is either a solid, a liquid, or a gas.","Some objects are either solid, liquid, or gas.",1,1,0
+1106,Every substance is either an acid or a base.,Some substances are either acids or bases.,1,1,0
+1107,Every planet is either a gas giant or a terrestrial planet.,Some planets are either gas giants or terrestrial planets.,1,1,0
+1108,Every star is either a main sequence star or a post-main sequence star.,Some stars are either main sequence stars or post-main sequence stars.,1,1,0
+1109,Every galaxy is either an elliptical galaxy or a spiral galaxy.,Some galaxies are either elliptical galaxies or spiral galaxies.,1,1,0
+1110,Every light source is either a point source or an extended source.,Some light sources are either point sources or extended sources.,1,1,0
+1111,Every image is either a real image or a virtual image.,Some images are either real images or virtual images.,1,1,0
+1112,Every sound is either a pure tone or a complex tone.,Some sounds are either pure tones or complex tones.,1,1,0
+1113,Every note is either a pitch or a timbre.,Some notes are either pitches or timbres.,1,1,0
+1114,Every chord is either a major chord or a minor chord.,Some chords are either major chords or minor chords.,1,1,0
+1115,Every form is either a binary form or a ternary form.,Some forms are either binary forms or ternary forms.,1,1,0
+1116,Every living thing needs food to survive.,Some living things need food to survive.,1,1,0
+1117,Every plant needs sunlight to grow.,Some plants need sunlight to grow.,1,1,0
+1118,Every person needs to drink water to live.,Some people need to drink water to live.,1,1,0
+1119,Every number has a square root.,Some numbers have a square root.,1,1,0
+1120,Every even number is a multiple of two.,Some even numbers are multiple of two.,1,1,0
+1121,Every radioactive element is a chemical element.,Some radioactive elements are chemical elements.,1,1,0
+1122,All insects have six legs.,Some insects have six legs.,1,1,0
+1123,Every car needs gasoline to run.,Some cars need gasoline to run.,1,1,0
+1124,Every person who wants to vote must be 18 years old.,Some people who want to vote must be 18 years old.,1,1,0
+1125,Every person who drives a car needs a license.,Some people who drive a car need a license.,1,1,0
+1126,All students who take the bus to school are late.,Some students who take the bus to school are late.,1,1,0
+1127,Every person who eats unhealthy food is overweight.,Some people who eat unhealthy food are overweight.,1,1,0
+1128,All dogs like to play fetch.,Some dogs like to play fetch.,1,1,0
+1129,The pizza in the fridge has expired.,Some of the food in the fridge is expired.,1,1,0
+1130,Every person who wants to join the army must be a citizen.,Some people who want to join the army must be a citizen.,1,1,0
+1131,The chairs in this store are on sale.,Some of the furniture in this store is on sale.,1,1,0
+1132,Shawn needs a mortgage to buy a house.,Some people who want to buy a house need a mortgage.,1,1,0
+1133,Macbooks in the lab are broken.,Some of the computers in the lab are broken.,1,1,0
+1134,If the sun is shining then it is daytime; and if the moon is out then it is night time; but the sun is out or it is not night time.,therefore it is daytime or the moon is not out.,1,1,0
+1135,If I have a headache then I am sick; and if I am sick then I am contagious; but I have a headache or I am not contagious; ,therefore I am sick or I am not contagious.,1,1,0
+1136,If I am tired then I need to sleep; and if I need to sleep then I am not rested; but I am tired or I am rested; ,therefore I need to sleep or I am not tired.,1,1,0
+1137,If I am hungry then I need to eat; and if I need to eat then I am not full; but I am hungry or I am full; ,therefore I need to eat or I am not hungry.,1,1,0
+1138,If the sky is blue then it is daytime; and if the sun is out then it is daytime; but the sky is blue or it is not daytime; ,therefore the sun is out or it is not daytime.,1,1,0
+1139,"If it is raining, then the ground is wet. It is raining.","Therefore, the ground is wet.",1,1,0
+1140,"If I eat breakfast, then I won't feel hungry during my classes. I ate breakfast.","Therefore, I do not feel hungry during my classes.",1,0,1
+1141,"If you're a cat, then you must like to sleep. Snickers is a cat.","Therefore, Snickers likes to sleep.",1,1,0
+1142,"If you're a bird, then you must be able to fly. Tweety is a bird.","Therefore, Tweety can fly.",1,1,0
+1143,"If you're a programmer, then you must be good at coding. Luke is a programmer.","Therefore, Luke can code.",1,1,0
+1144,"Mike asserts that the earth is flat.. Daymond asserts that the earth is a sphere.. When Mike asserts something, he is normally right.. When Daymond asserts something, he is normally right.. Daymond's evidence is more reliable than Mike's.",The earth is a sphere.,1,1,0
+1145,Jack believes that men working as construction workers should be paid more as compared to women.. Mary  belives that women should receive equal pay as men even as a construction worker.. Jack's has proof that men are more productive as construction workers.,Men and women working as construction workers should be paid equally.,0,1,1
+1146,Robert asserts that objects fall downwards on earth due to gravity.. Patrica asserts that objects falling downwards on earth is a random phenomenon.. When Robert asserts something he is normally right.. When Patrica asserts something he is normally right.. Robert's evidence is more convincing than Patrica's.,Objects fall downwards on earth due to gravity.,1,0,1
+1147,"John believes that men are better drivers.. Jane believes that women are just as good as men when it comes to driving.. When believes something, he is generaally right.. When Jane believes something, she isi generlly right. Jane's evidence is more reliable than John's.",Men are better drivers than women.,0,1,1
+1148,Bill believes that the government should not provide healthcare.. Ted  belives that the government should provide healthcare.. Bill's has proof that the government is not efficient in providing healthcare.,The government should not provide healthcare.,1,1,0
+1149,"If you're a student, then you must attend school. Mike is a student. ","Therefore, Mike attends school.",1,1,0
+1150,"If you get 97 on the final exam, then you get an A for the course.","Jane gets 98 on the final exam. Therefore, Jane gets an A for the course.",1,1,0
+1151,"If you're a cat, then you must like to sleep. Snickers is a cat.","Therefore, Snickers likes to sleep.",1,1,0
+1152,"If you're a bird, then you must be able to fly. Tweety is a bird.","Therefore, Tweety can fly.",1,1,0
+1153,"If you're a programmer, then you must be good at coding. Luke is a programmer.","Therefore, Luke can code.",1,1,0
+1154,Bob is a software developer.. Software developers generally take a cab when it's raining.. A few software developers enjoy walking back in the rain.,Bob takes a cab when it's raining.,1,1,0
+1155,Earth is a planet in our universe.. The sun is at the center of our universe.. Every planet revolves around the sun.,Every planet revolves around the earth.,0,1,1
+1156,"Objects fall downwards when dropped from a standstill.. On Earth, gravity pulls all objects towards the ground.. Objects float while dropped in the moon.","On Earth, objects fall downwards due to gravity.",1,2,1
+1157,Khan is a bodybuilder.. Bodybuilders visit the gym almost everyday and train.. Some bodybuilders do not hit the gym regularly.,Khan visits the gym almost everyday.,1,0,1
+1158,Kate and Luke are footballers.. Footballers generally train during the weekend.. Kate did not go to training this weekend.,Luke is a footballer.,1,1,0
+1159,I will listen to music.,"Therefore, I will listen to music or I will sleep.",1,0,1
+1160,John went to play fooball.,"therefore, John would play football or referee the game.",1,2,1
+1161,I will go for a walk.,"Therefore, I will go for a walk or take my bike.",1,2,1
+1162,I will eat healthy.,"Therefore, I will each healthy or I will exercise.",1,2,1
+1163,I will study for my test.,"Therefore, I will study for my test or I will take a break.",1,2,1
+1164,Mike and Luke are going to a movie.. People take a bus to get to the movie.. Mike did not take the bus.,Mike is going to the  movie.,0,1,1
+1165,Dark clouds in during the day indicate incoming rain.. People generally take umbrella when it is raining.. Shawn is carrying an umbrella.,It will rain in Shawn's area.,1,1,0
+1166,A and B are vegetarians.. Vegetarians do not eat meat products.. A prepared a chicken dish for the guests.,A is a non-vegetarian.,0,0,0
+1167,Lara and Ronaldo are footballers.. Footballers generally train during the weekend.. Lara did not go to training this weekend.,Lara is not a footballer.,0,1,1
+1168,Busses stop at a designated area to pick the passengers. Bus stops generally have a bus stop sign.. Mike was waiting by the side of the road.,Mike is not waiting for the bus.,1,0,1
+1169,"After an action is performed, things normally remain as they were.. Any time a robot grabs a fruit, the fruit will be in its hand.. If a fruit is in the hand, then, after the robot squeezes the fruit, the fruit becomes soggy.. Initially the fruit is not in the hand of the robot.","After the robot grabs a fruit, waits, and then squeezes the fruit, the fruit will be soggy.",1,1,0
+1170,"After an action is performed, things normally remain as they were.. Any time the robot grabs a key, the key will be in its hand.. If a key is in the hand, then, after the robot unlocks the door, the key will be in the door.. Initially, the key is not in the hand.. Initially, the key is not in the door.","After the robot grabs a key, waits, and then unlocks the door, the key will be in the door.",1,1,0
+1171,"Any time the robot grasps a book, the book will be in the backpack.. If a book is in the backpack, then, after the robot moves the backpack onto the table, the book will be on the table.. Initially, the book is not in the backpack.. Initially, the book is not on the table.","After the robot grasps a book, waits, and then places the backpack on the table, the book will be on the table.",1,1,0
+1172,"After an action is performed, things normally remain as they were.. Any time the robot marinates a chicken, the chicken will be in the oven tray.. If a chicken is in the oven tray, after the robot moves it into the oven, the chicken will be in the oven.. If a chicken is in the oven, after the robot presses the button, the chicken will be cooked in the oven.. Initially, the chicken is not in the oven.. Initially, the chicken is not in the oven tray.. Initially, the chicken is not cooked in the oven.. Initially, the chicken is not marinated.","After the robot marinates the chicken, waits, and then moves the oven tray into the oven, waits, and then presses the button, the chicken will be cooked in the oven.",1,1,0
+1173,"After an action is performed, things normally remain as they were.. When the robot grasps an item, the item will normally be in its hand.. When the robot moves an item into the shopping cart, the item will normally be in the shopping cart.. Moving an item that is not in the hand is an exception to this rule.. Initially the item is not in the hand.. Initially, the item is not on the table.","After the robot grasps an item, waits, and the movies into the shopping cart, the item will be in the shopping cart.",1,1,0
+1174,"After an action is performed, things normally remain as they were.. When the robot grasps an item, the item will normally be in its hand.. When the robot moves an item into the shopping cart, the item will normally be in the shopping cart.. Moving an item that is not in the hand is an exception to this rule.. Initially the item is not in the hand.. Initially, the item is not on the table.","The robot waits and then moves an item, the item will be in the shopping cart.",0,0,0
+1175,"After an action is performed, things normally remain as they were.. When Bob goes out of the house, he will normally be at work.. When Bob is at work, the house will normally be empty.. Bob having guests at home is an exception to this rule.. Initially Bob is not at work.. Initially Bob does not have guests.","When Bob goes out of the house, the house will be empty.",1,1,0
+1176,"After an action is performed, things normally remain as they were.. When Bob goes out of the house, he will normally be at work.. When Bob is at work, the house will normally be empty.. Bob having guests at home is an exception to this rule.. Initially Bob is not at work.. Initially Bob has guests.","When Bob goes out of the house, the house will be empty.",0,1,1
+1177,"After an action is performed, things normally remain as they were.. An item is in the cart if and only if it is not on the shelf.. When Bob grabs an item, the item will normally be in his hand.. When Bob moves an item into the cart, the block will normally be in the cart.. Moving an item that is not in the hand is an exception to this rule.. Initially the item is not in his hand.. Initially the item is on the shelf","After Bob grabs an item, waits, and then moves it into the cart, the item will not be on the shelf.",1,0,1
+1178,"After an action is performed, things normally remain as they were.. There are 2 blocks on the floor.. When the robot grasps a block, the block will normally be in the hand.. When the robot moves a block on top of another block, it will make a tower.. Moving a block next to another block is an exception to this rule.. Initially block A and block B are on the floor.. Initially a tower is not made.","After the Robot grasps block A, waits, and the moves block A on top of block B, a tower will be made on the floor.",1,1,0
+1179,"After an action is performed, things normally remain as they were.. A bag is on the table if and only if Bob is not at school.. When Bob grabs a bag, he will normally be at school.. When Bob moves a bag onto the table, the bag will normally be on the table.. Initially Bob is not at school","After Bob grabs a bag, waits, and then moves it onto the table, Bob is not at school.",1,1,0
+1180,"After an action is performed, things normally remain as they were.. A toy is on the shelf if and only if it is not on the floor.. When Tim grabs a toy, the toy will normally be in his hand.. When Tim keeps a toy on the shelf, the toy will normally be on the shelf.. Keeping a toy that is not in the hand is an exception to this rule.. Initially the toy is on the floor.. Initially the toy is not in the hand.","Tim grabs a toy, waits, and then places is on the shelf, the toy will not be on the floor.",1,0,1
+1181,"After an action is performed, things normally remain as they were.. When Bob grabs an item, the item will be normally in the hand.. When Bob moves an item into the cart, the item will normally be in the cart.. Moving an item that is not in the hand is an exception to this rule.. Initially item A was not in the cart. After the robot moved item A into the cart, and then waited, item A was in the cart.",Item A was in the hand.,1,1,0
+1182,"After an action is performed, things normally remain as they were.. When Bob grabs an item, the item will be normally in the hand.. When Bob moves an item into the cart, the item will normally be in the cart.. Moving an item that is not in the hand is an exception to this rule.. Initially item A was not in the cart. After the robot grasps item A, waits, and then moves item A into the cart, item A is in the cart.",Item A was in the hand.,0,0,0
+1183,"After an action is performed, things normally remain as they were.. A toy is on the shelf if and only if it is not on the floor.. When Tim grabs a toy, the toy will normally be in his hand.. When Tim keeps a toy on the shelf, the toy will normally be on the shelf.. Keeping a toy that is not in the hand is an exception to this rule.. Initially the toy is not in the hand.. Tim grabs a toy, waits, and then places is on the shelf, the toy will not be on the floor.",Initially the toy is on the floor.,1,0,1
+1184,"After an action is performed, things normally remain as they were.. A toy is on the shelf if and only if it is not on the floor.. When Tim grabs a toy, the toy will normally be in his hand.. When Tim keeps a toy on the shelf, the toy will normally be on the shelf.. Keeping a toy that is not in the hand is an exception to this rule.. Initially the toy is on the floor.. Tim grabs a toy, waits, and then places is on the shelf, the toy will not be on the floor",Initially the toy is not in Tim’s hand.,1,1,0
+1185,"If Bob is home alone, he will play video games. Bob is home alone",Bob will play video games.,1,1,0
+1186,"If it is sunny today, I will wear my sunglasses.. It is sunny today.",I will wear my sunglasses.,1,1,0
+1187,"If the clock shows 8PM, Alice will have dinner.. It is 8 PM.",Alice will have dinner.,1,1,0
+1188,"If Cam buys 3 shirts, he gets a chocolate.. Cam bought 3 shirts",Cam gets a chocolate.,1,1,0
+1189,"If Hamilton places last in the race, he will be knocked out of the championship.. Hamilton placed last in the race.",Hamilton is knocked out of the championship.,1,1,0
+1190,"If Bob falls off the bike, he will be injured.. Bob is not injured",Bob did not fall off the bike.,1,1,0
+1191,"If I get 50 marks in my mid-term, I will fail.. I did not fail.",I did not get 50 marks in my mid-term.,1,1,0
+1192,"If both teams test negative for COVID, the match will be played today.. The match was not played today.",Both teams did not test negative for COVID.,1,1,0
+1193,"If Bob gets married, he will go to Hawaii.. Bob didn’t go to Hawaii",Bob didn’t get married.,1,1,0
+1194,"If Bob was drinking and driving, he would be fined for 500$.. Bob was not fined 500$.",Bob was not drinking and driving.,1,1,0
+1195,All calicos are felines.. All felines are animals.,All calicos are animals.,1,1,0
+1196,All tigers are cats.. All cats are aggressive.,All tigers are aggressive,1,1,0
+1197,Sharks can swim in water.. Sharks are fish.,All fish can swim in water.,0,1,1
+1198,MacBook Pros are a type of laptop.. All laptops can perform complicated mathematical operations.,MacBook Pros can perform complicated mathematical operations.,1,1,0
+1199,All iPhone's are a type of smartphone.. All smartphones have a speaker.,All iPhones have a speaker.,1,1,0
+1200,"If anyone is thirsty, they will drink water.. Bob is thirsty.",Bob will drink water.,1,1,0
+1201,"If anyone is hosting a party, they will play pop music.. Bob is hosting a party.",Bob will play pop music.,1,1,0
+1202,"If anyone eats fast food everyday, they will fall sick.. Alice eats fast food everyday.",Alice will fall sick.,1,1,0
+1203,"If the temperature is hot, then Bob will go surfing.. The temperature is hot.",Bob will go for surfing.,1,1,0
+1204,"If anyone is good at math, they will get an A on the Physics test.. Alice is good at math.",Alice will get an A on the Physics test.,1,1,0
