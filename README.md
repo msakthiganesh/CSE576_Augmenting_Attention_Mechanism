@@ -6,5 +6,8 @@ In our approach, we obtain word importance for sample predictions using a well-p
 
 ```Proposed Attention Mask = Attention Mask * Normalized Word Importance```
 
+![Proposed Attention Mask Mechanism]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/msakthiganesh/CSE576_Augmenting_Attention_Mechanism/blob/main/proposed_mechanism.png?raw=true))
+
+
 Furthermore, the normalized word importance for the correctly predicted training and validation datasets is fed directly as the attention mask, whereas the word importance is inverted (1 - normalized word importance) for the samples predicted wrong.
 We hypothesize that the baseline model (RoBERTa) would converge faster and would allow the model to understand important parts of the sentence better in order to make the correct predictions.
