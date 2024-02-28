@@ -6,7 +6,7 @@ In our approach, we obtain word importance for sample predictions using a well-p
 
 ```Proposed Attention Mask = Attention Mask * Normalized Word Importance```
 
-![Proposed Attention Mask Mechanism]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/msakthiganesh/CSE576_Augmenting_Attention_Mechanism/blob/main/proposed_mechanism.png?raw=true))
+![Proposed Attention Mask Mechanism](https://github.com/msakthiganesh/CSE576_Augmenting_Attention_Mechanism/blob/main/proposed_mechanism.png?raw=true)
 
 
 Furthermore, the normalized word importance for the correctly predicted training and validation datasets is fed directly as the attention mask, whereas the word importance is inverted (1 - normalized word importance) for the samples predicted wrong.
