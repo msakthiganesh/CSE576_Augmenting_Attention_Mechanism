@@ -1,1 +1,1 @@
-# cse-576-nlp
+CSE576_Augmenting_Attention_Mechanism
